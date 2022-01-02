@@ -37,6 +37,10 @@ def parse_output(output):
     parsed_output = output[start_index:end_index]
     return parsed_output.replace("\\n", "\n")
 
-prompt = cmd_loop()
-prompt.prompt = "[+] Command:"
-prompt.cmdloop()
+def main():
+    prompt = cmd_loop()
+    prompt.prompt = "[+] Command:"
+    prompt.cmdloop()
+     
+if __name__ == "__main__":
+    main()
