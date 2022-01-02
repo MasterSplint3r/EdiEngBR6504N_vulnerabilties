@@ -25,6 +25,10 @@ class cmd_loop(cmd.Cmd):
     def do_EOF(self, line):
         print("Bye")
         return True
+    
+    def do_quit(self, line):
+        print("Bye")
+        return True
 
 def parse_output(output):
     output = str(output)
