@@ -1,0 +1,205 @@
+var comValidateKey_wep3=new Array
+(
+"value. It should be",
+""
+);
+var comSaveChanges_wan2=new Array
+(
+"PPP user name cannot be empty!",
+""
+);
+var invalidIpAddr=new Array
+(
+"Invalid IP address ",
+""
+);
+var comCheckIPMask6=new Array
+(
+" range in 4rd digit. It should be 0-255.",
+""
+);
+var comSaveChanges_wpa2=new Array
+(
+"Invalid port number of RADIUS Server! It should be a decimal number between 1-65535.",
+""
+);
+var comCheck_wpa_psk=new Array
+(
+"Pre-Shared Key value should be 64 characters.",
+""
+);
+var comSaveChanges_wan5=new Array
+(
+"Invalid MTU size! You should set a value between 1400-1492.",
+""
+);
+var comValidateKey_wep=new Array
+(
+"The encryption key you selected as the Tx Default Key cannot be blank.",
+""
+);
+var invalidDnsAddr2=new Array
+(
+"Invalid DNS2 address ",
+""
+);
+var comValidateKey_wep2=new Array
+(
+"Invalid length of Key",
+""
+);
+var comSaveChanges_wpa=new Array
+(
+"RADIUS Server port number cannot be empty! It should be a decimal number between 1-65535.",
+""
+);
+var comSaveChanges_wan6=new Array
+(
+"Invalid server IP address!It should be located in the same subnet of local IP address.",
+""
+);
+var comCheckIPMask4=new Array
+(
+"Invalid subnet mask in 2nd digit.It should be the number of 0, 128, 192, 224, 240, 248, 252 or 254",
+""
+);
+var comCheck_wpa_psk2=new Array
+(
+"Invalid Pre-Shared Key value. It should be in hex number (0-9 or a-f).",
+""
+);
+var comValidateKey_wep5=new Array
+(
+"Invalid length of WEP Key value. It should be",
+""
+);
+var comSaveChanges_wan3=new Array
+(
+"PPP password cannot be empty!",
+""
+);
+var comCheckIpAddr=new Array
+(
+"IP address cannot be empty! It should be filled with 4 digit numbers as xxx.xxx.xxx.xxx.",
+""
+);
+var comCheckIpAddr4=new Array
+(
+" range in 2nd digit. It should be 0-255.",
+""
+);
+var comCheckIpAddr3=new Array
+(
+" range in 1st digit. It should be 0-255.",
+""
+);
+var comCheckIPMask2=new Array
+(
+"Invalid subnet mask value. It should be the decimal number (0-9).",
+""
+);
+var comSaveChanges_wan8=new Array
+(
+"Password cannot be empty!",
+""
+);
+var comSaveChanges_wan9=new Array
+(
+"Input MAC address is not complete. It should be 12 digits in hex.",
+""
+);
+var invalidDefaultGate=new Array
+(
+"Invalid default gateway address ",
+""
+);
+var invalidRadiusIP=new Array
+(
+"Invalid RADIUS Server IP address ",
+""
+);
+var comSaveChanges_wan7=new Array
+(
+"User name cannot be empty!",
+""
+);
+var comSaveChanges_wan10=new Array
+(
+"Invalid MAC address. It should be in hex number (0-9 or a-f).",
+""
+);
+var invalidDnsAddr1=new Array
+(
+"Invalid DNS1 address ",
+""
+);
+var comValidateKey_wep4=new Array
+(
+"characters.",
+""
+);
+var comSaveChanges_wan4=new Array
+(
+"Invalid idle time value! You should set a value between 1-1000.",
+""
+);
+var comCheckIPMask=new Array
+(
+"Subnet mask cannot be empty! It should be filled with 4 digit numbers as xxx.xxx.xxx.xxx.",
+""
+);
+var comSaveChanges_basic=new Array
+(
+"SSID cannot be empty!",
+""
+);
+var comCheck_wpa_psk4=new Array
+(
+"Pre-Shared Key value should be less than 64 characters.",
+""
+);
+var invalidDnsAddr3=new Array
+(
+"Invalid DNS3 address ",
+""
+);
+var comCheckIPMask3=new Array
+(
+"Invalid subnet mask in 1st digit.It should be the number of 0, 128, 192, 224, 240, 248, 252 or 254",
+""
+);
+var comCheckIpAddr5=new Array
+(
+" range in 3rd digit. It should be 0-255.",
+""
+);
+var comValidateKey_wep6=new Array
+(
+"Invalid key value. It should be in hex number (0-9 or a-f).",
+""
+);
+var comCheck_wpa_psk3=new Array
+(
+"Pre-Shared Key value should be set at least 8 characters.",
+""
+);
+var comCheckIPMask5=new Array
+(
+"Invalid subnet mask in 3rd digit.It should be the number of 0, 128, 192, 224, 240, 248, 252 or 254",
+""
+);
+var comCheckIpAddr2=new Array
+(
+"value. It should be the decimal number (0-9).",
+""
+);
+var invalidServerIp=new Array
+(
+"Invalid server IP address ",
+""
+);
+var comSaveChanges_wan=new Array
+(
+"Invalid gateway address!It should be located in the same subnet of current IP address.",
+""
+);

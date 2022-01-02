@@ -1,0 +1,1000 @@
+var hlpStatusConnect=new Array
+(
+"Status | Internet Connection",
+""
+);
+var helpStaXXlogTbl10=new Array
+(
+"192.168.2.100 login success",
+""
+);
+var hlpGsWanDnsInfo=new Array
+(
+"A Domain Name System (DNS) server is like an index of IP Addresses and Web Addresses. If you type a Web Address into your browser, such as www.broadbandrouter.com, a DNS server will find that name in its index and the matching IP Address. Most ISPs provide a DNS server for speed and convenience. Since your Service Provider may connect you to the Internet through dynamic IP settings, it is likely that the DNS server IP Address is also provided dynamically. However, if there is a DNS server that you would rather use, you need to specify the IP Address of that DNS server in this page. The primary DNS will be used for domain name access first, in case the primary DNS access failures, the secondary DNS will be used.",
+""
+);
+var hlpStatistics=new Array
+(
+"Statistics",
+""
+);
+var hlpGlossaryDsl=new Array
+(
+"DSL Modem",
+""
+);
+var hlpGlossaryIpInfo=new Array
+(
+"IP stands for Internet Protocol. An IP address consists of a series of four numbers separated by periods, that identifies a single, unique Internet computer host. Example: 192.168.2.1 ",
+""
+);
+var helpStaXXlogTbl05=new Array
+(
+"NTP Date/Time updated",
+""
+);
+var hlpGsNatPortFrwd=new Array
+(
+"General Setup | NAT | Port Forwarding",
+""
+);
+var hlpGlossaryEthernetList4=new Array
+(
+"Ensure that you have an Ethernet interface for each network computer",
+""
+);
+var hlpGsNatVirServerNum=new Array
+(
+"Port Number",
+""
+);
+var hlpSpecialApp=new Array
+(
+"Special Applications",
+""
+);
+var hlpGlossaryEthernetInfo=new Array
+(
+"A standard for computer networks. Ethernet networks are connected by special cables and hubs, and move data around at up to 10/100 million bits per second (Mbps). ",
+""
+);
+var hlpGsWanDdns=new Array
+(
+"General Setup | WAN | DDNS",
+""
+);
+var hlpQuickIpFixInfo=new Array
+(
+"Some xDSL Internet Service Providers may assign a Fixed IP Address for your Broadband router. If you have been provided with this information, choose this option and enter the assigned IP Address, Subnet Mask, Gateway IP Address and DNS IP Address for your Broadband router.",
+""
+);
+var hlpGsLanInfo=new Array
+(
+"The Broadband router needs to have an IP address for the other PCs in the Local Area Network (LAN) to access it through a web-browser. You can also enable the DHCP server feature to allow automatic allocation of IP addresses to the LAN client PCs. Note that the network address of the address pool must be the same as the IP address of the device, otherwise an error message will show up and access will be denied.",
+""
+);
+var hlpGsNatAdvSpecApp=new Array
+(
+"Advanced Setup | NAT | Special Applications",
+""
+);
+var hlpGsFwDmz=new Array
+(
+"General Setup | Firewall | DMZ",
+""
+);
+var hlpSystemLog=new Array
+(
+"System Log",
+""
+);
+var hlpTelstra=new Array
+(
+"Telstra Big Pond",
+""
+);
+var hlpQuickIpCable=new Array
+(
+"Quick Setup | IP Address Info | Cable Modem ",
+""
+);
+var hlpToolsCfg=new Array
+(
+"Tools | Configuration Tools",
+""
+);
+var hlpGsSysInfo=new Array
+(
+"Configure the system parameters, including time zone, password and remote management.",
+""
+);
+var hlpGsWanDdnsInfo=new Array
+(
+"DDNS allows you to map the static domain name to a dynamic IP address. You must get an account, password and your static domain name from the DDNS service providers. This router supports most popular DDNS services.",
+""
+);
+var hlpGlossaryEthernetList1=new Array
+(
+"Check all connections to the Broadband router",
+""
+);
+var hlpQuickIpPPTP=new Array
+(
+"Quick Setup | IP Address Info | PPTP",
+""
+);
+var hlpBroadbandtype=new Array
+(
+"Broadband Type",
+""
+);
+var hlpAdvSet=new Array
+(
+"Advanced Settings",
+""
+);
+var hlpQuickType=new Array
+(
+"Quick Setup | Broadband Type",
+""
+);
+var hlpGsWlBasicInfo=new Array
+(
+"You can set parameters that are used for the wireless stations to connect to this router. The parameters include ESSID and Channel. Note that all the devices in the same wireless LAN should have the same ESSID and Channel number. You also can look up all associated wireless stations here.",
+""
+);
+var hlpGsNatInfo=new Array
+(
+"Network Address Translation (NAT). This process allows all of the computers on your home network to use one Public IP address to access the Internet. Using the NAT capability as a home network gateway, you can access the Internet from any computer on your home network without having to purchase more Public IP addresses from your ISP.",
+""
+);
+var hlpGsWlEncry=new Array
+(
+"General Setup | Wireless | Encryption",
+""
+);
+var helpStaXXlogTbl07=new Array
+(
+"DHCP Client: Send Request,Request IP=192.168.1.25",
+""
+);
+var hlpGlossaryIspInfo=new Array
+(
+"Internet Service Provider. An ISP is a business that provides connectivity to the Internet for individuals and other businesses or organizations.",
+""
+);
+var hlpToolsUpgradeInfo=new Array
+(
+"This tool allows you to upgrade the Broadband router system firmware. To upgrade the firmware of your Broadband router, you need to download the files to your local hard disk, and enter the file name in the appropriate field in this page. We do not recommend you do the firmware upgrade unless it\'s really necessary.",
+""
+);
+var hlpGlossaryIsp=new Array
+(
+"ISP",
+""
+);
+var hlpGlossaryRouterList5=new Array
+(
+"Ensure that the latest firmware is installed in the Broadbrand router",
+""
+);
+var hlpGsWlAcc=new Array
+(
+"General Setup | Wireless | Access Control",
+""
+);
+var hlpDHCPClientLog=new Array
+(
+"DHCP Client Log",
+""
+);
+var hlpGsWANL2TP=new Array
+(
+"General Setup | WAN | L2TP",
+""
+);
+var hlpReset=new Array
+(
+"Reset",
+""
+);
+var hlpQuickIpFix=new Array
+(
+"Quick Setup | IP Address Info | Fixed-IP xDSL",
+""
+);
+var hlpGlossaryEthernetList=new Array
+(
+"NETWORK: Ethernet Checklist",
+""
+);
+var hlpGlossaryMacInfo=new Array
+(
+"MAC stands for Media Access Control. A MAC address is the hardware address of a device connected to a network.",
+""
+);
+var hlpFirewareUp=new Array
+(
+"Firmware Upgrade",
+""
+);
+var hlpCableModem=new Array
+(
+"Cable Modem",
+""
+);
+var helpStaXXlogTbl03=new Array
+(
+"192.168.2.100 login success",
+""
+);
+var hlpGsWlEncryInfo=new Array
+(
+"By using Encryption, the data will be transmitted securely over the wireless network. You have to setup the same encryption key both on your router and wireless client devices. You can select 64 or 128 bit WEP key length encryption methods. Longer WEP key length can provide better wireless LAN security, but lower wireless LAN thoughput.",
+""
+);
+var hlpGlossaryDns=new Array
+(
+"DNS Server IP address ",
+""
+);
+var hlpGsSysTimezone=new Array
+(
+"General Setup | System | Time Zone",
+""
+);
+var hlpGlossaryPPPoE=new Array
+(
+"PPPoE",
+""
+);
+var hlpGlossaryLan=new Array
+(
+"LAN",
+""
+);
+var hlpStatusConnectInfo=new Array
+(
+"This page displays the current WAN connection type and WAN configuration status of the Broadband router. ",
+""
+);
+var hlpGlossaryModemList3=new Array
+(
+"Check your Cable/DSL modem to verify the cable or DSL line is connected",
+""
+);
+var hlpGsFwAccControl=new Array
+(
+"General Setup | Firewall | Access Control",
+""
+);
+var hlpDNS=new Array
+(
+"DNS",
+""
+);
+var hlpGlossaryRouterList1=new Array
+(
+"Check power connection",
+""
+);
+var hlpGsFwDenialInfo=new Array
+(
+"The Broadband router can detect and prevent certain types of network attacks such as DoS attacks. Network attacks that deny access to a network device are called Denial-of-Service (DoS) attacks. Denials of Service (DoS) attacks are aimed at devices and networks with a connection to the Internet. Their goal is not to steal information, but to disable a device or network so users no longer have access to network resource. The Broadband router\'s firewall can block common hacker attacks, including Denial of Service, Ping of Death, and RIP defect. If Internet attacks occur the router can log the events.",
+""
+);
+var hlpQuickIpPPTPInfo=new Array
+(
+"If you connect to the Internet using an xDSL Modem and your ISP has provided you with a Password, Local IP Address, Remote IP Address and a Connection ID, then your ISP uses PPTP to establish a connection. You must choose this option and enter the required information.",
+""
+);
+var hlpEncryption=new Array
+(
+"Encryption",
+""
+);
+var hlpGsSysRM=new Array
+(
+"General Setup | System | Remote Management",
+""
+);
+var hlpGsWANPPTPInfo=new Array
+(
+"Select PPTP if your ISP requires the PPTP protocol to connect you to the Internet.  Some ISP assign a IP to you before connecting to the PPTP server.  While some ISP require you to obtain IP automatically.  You should use the User ID, password and PPTP gateway IP provided by the ISP. The Connection ID is normally optional, but may be required by some service providers. BEZEQ is only used for BEZEQ network in Israel.  The Broadband router supports connection on demand and auto-reconnect features for the PPTP service.  If you select the \"Continuous\" connection type, the router will always connect to the ISP.  If the WAN line breaks down and links again, the router will auto-reconnect to the ISP.  If you select \"Manual\" connection type, the router will connect to ISP only when you click \"Connect\" manually from the Web user interface.  The WAN connection will not disconnected due to the idle timeout.  If the WAN line breaks down and latter links again, the router will not auto-connect to the ISP.  If you select \"Connect On Demand\" connection type, the PPP connection will only be initialized when there is a request to access the Internet from a local client; after an Idle Timeout, when no Internet traffic is requested, the PPP connection will automatically disconnect.",
+""
+);
+var hlpGlossaryPPPoEInfo=new Array
+(
+"Point-to-Point Protocol over Ethernet. Point-to-Point Protocol is a secure data transmission method originally created for dial-up connections; PPPoE is for Ethernet connections.",
+""
+);
+var hlpDeviceStatus=new Array
+(
+"Device Status",
+""
+);
+var hlpLAN=new Array
+(
+"LAN",
+""
+);
+var hlpGsWANDynIPInfo=new Array
+(
+"The WAN port is connected to a cable modem or a LAN with DHCP service provided. In this case, the WAN port will automatically obtain its IP address from the DHCP server.<br> The Host Name is optional, but may be required by some Service Provider\'s. The default MAC address is set to the WAN\'s physical interface on the Broadband router. If required by your Service Provider, use the \"Clone MAC Address\" button to copy the MAC address of the Network Interface Cardinstalled in your PC and replace the WAN MAC address with this MAC address.",
+""
+);
+var hlpGlossaryDhcp=new Array
+(
+"DHCP",
+""
+);
+var hlpAlgSet=new Array
+(
+"ALG Settings",
+""
+);
+var hlpRemoteMan=new Array
+(
+"Remote Management",
+""
+);
+var hlpGlossaryWan=new Array
+(
+"WAN",
+""
+);
+var hlpWAN=new Array
+(
+"WAN",
+""
+);
+var hlpIpStatic=new Array
+(
+"Static IP",
+""
+);
+var hlpGsFirewallInfo=new Array
+(
+"The Broadband router provides a stateful inspection firewall which is designed to protect against Denial of Service attacks when activated. Its purpose is to allow a private local area network (LAN) to be securely connected to the Internet.",
+""
+);
+var hlpTools=new Array
+(
+"Tools",
+""
+);
+var hlpGsFwDenial=new Array
+(
+"General Setup | Firewall | Denial of Service",
+""
+);
+var hlpGsWlBasic=new Array
+(
+"General Setup | Wireless | Basic Settings",
+""
+);
+var hlpGsNat=new Array
+(
+"General Setup | NAT",
+""
+);
+var hlpGsNatAlgSet=new Array
+(
+"General Setup | NAT | ALG Settings",
+""
+);
+var hlpGsWireless=new Array
+(
+"General Setup | Wireless",
+""
+);
+var hlpGlossaryWanInfo=new Array
+(
+"Wide Area Network. A network that connects computers located in geographically separate areas, (i.e., different buildings, cities, countries). The Internet is a wide area network.",
+""
+);
+var hlpToolsUpgrade=new Array
+(
+"Tools | Firmware Upgrade",
+""
+);
+var hlpStatusStatisticsInfo=new Array
+(
+"This page shows the counters for packets sent/received to/from WAN port and LAN ports. This router starts to count from zero every time after it starts up.",
+""
+);
+var hlpGsWANPPPoEInfo=new Array
+(
+"The WAN port is connected to an xDSL modem. In this case, many service providers will provide PPP over Ethernet (PPPoE) service. The Broadband router supports connection on demand and auto-reconnect features for the PPPoE service.  If you select the \"Continuous\" connection type, the router will always connect to the ISP.  If the WAN line breaks down and links again,the router will auto-reconnect to the ISP.  If you select \"Manual\" connection type, the router will connect to ISP only when you click \"Connect\" manually from the Web user interface.  The WAN connection will not disconnected due to the idle timeout.  If the WAN line breaks down and latter links again, the router will not auto-connect to the ISP.  If you select \"Connect On Demand\" connection type, the PPP connection will only be initialized when there is a request to access the Internet from a local client; after an Idle Timeout, when no Internet traffic is requested, the PPP connection will automatically disconnect. Enter the PPPoE user name and password assigned by your Service Provider. The Service Name is normally optional, but may be required by some service providers.",
+""
+);
+var hlpGsNatAdvSpecTrPort=new Array
+(
+"Trigger Port",
+""
+);
+var hlpStatusSysLog=new Array
+(
+"Status | System Log",
+""
+);
+var hlpCfgTools=new Array
+(
+"Configuration Tools",
+""
+);
+var hlpStatusInfo=new Array
+(
+"You can use the Status to see the connection status of the Broadband router\'s; WAN/LAN interfaces, firmware and hardware version numbers, any illegal attempts to access your network, and information on all DHCP client PCs currently connected to your network.",
+""
+);
+var hlpGsWANInfo=new Array
+(
+"Wide Area Network (WAN). A network that connects computers located in geographically separate areas, (i.e., different buildings, cities, countries). The Internet is a wide area network.",
+""
+);
+var hlpDDNS=new Array
+(
+"DDNS",
+""
+);
+var hlpGlossaryModemList2=new Array
+(
+"Check your Cable/DSL modem to verify power is connected",
+""
+);
+var hlpGsNatVirServerApp=new Array
+(
+"Application",
+""
+);
+var hlpGsSysPsdSet=new Array
+(
+"General Setup | System | Password Settings",
+""
+);
+var hlpGsFwAccControlInfo=new Array
+(
+"If you want to restrict users from accessing certain Internet applications/services (e.g. Internet websites, email, FTP etc.),  then this is the place to set that configuration.  Access Control allows users to define the traffic type permitted in your LAN.  You can control which PC client can have access to these services.  By default, the list is empty, and the router allows all users to access all services.  When you add any access control rules in the list, only users that match the rules can access the permitted services.  You can control the users by IP address or MAC address.",
+""
+);
+var hlpGsNatAdvSpecComment=new Array
+(
+"Comment",
+""
+);
+var hlpGsNatAdvSpecAppInfo=new Array
+(
+"Some applications require multiple connections, such as Internet gaming, video conferencing, Internet telephony and others. These applications cannot work when Network Address Translation (NAT) is enabled. If you need to run applications that require multiple connections,-specify the port normally associated with an application in the \"Trigger Port\" field,select the protocol type as TCP or UDP, then enter the public ports associated with the trigger port to open them for inbound traffic.<br><b>Note:</b>The range of the Trigger Port is 0 to 65535.   			<br><br><b>Example",
+""
+);
+var hlpGsWanDns=new Array
+(
+"General Setup | WAN | DNS",
+""
+);
+var hlpStatusSysLogInfo=new Array
+(
+"This page shows the system operation information, includes system start up time, WAN connection process...etc. The log only records the information of current session. The log will be cleared when this router shut down or restart.",
+""
+);
+var hlpFixDsl=new Array
+(
+"Fixed-IP xDSL",
+""
+);
+var hlpGlossaryTcpipInfo=new Array
+(
+"Transmission Control Protocol/Internet Protocol. This is the standard protocol for data transmission over the Internet.",
+""
+);
+var hlpGlossaryEthernetList3=new Array
+(
+"Ensure that all devices\' TCP/IP settings are correct (either assigned automatically via DHCP or manually configured)",
+""
+);
+var hlpGsSystem=new Array
+(
+"General Setup | System",
+""
+);
+var hlpGlossaryRouterList3=new Array
+(
+"Check connections for modem and networking interface(s)",
+""
+);
+var hlpAccControl=new Array
+(
+"Access Control",
+""
+);
+var hlpGsWANTelstra=new Array
+(
+"General Setup | WAN | Telstra Big Pond",
+""
+);
+var hlpGsWANDynIP=new Array
+(
+"General Setup | WAN | Dynamic IP",
+""
+);
+var hlpGlossaryMaskInfo=new Array
+(
+"A subnet mask, which may be a part of the TCP/IP information provided by your ISP, is a set of four numbers (e.g. 255.255.255.0) configured like an IP address. It is used to create IP address numbers used only within a particular network (as opposed to valid IP address numbers recognized by the Internet, which must be assigned by InterNIC).",
+""
+);
+var hlpGlossaryRouter=new Array
+(
+"Broadband Router Checklist",
+""
+);
+var hlpUrlBlock=new Array
+(
+"URL Blocking",
+""
+);
+var hlpSystem=new Array
+(
+"System",
+""
+);
+var hlpGsWirelessInfo=new Array
+(
+"This router can act as a Wireless LAN Access Point and can let all PCs equipped with IEEE 802.11n wireless network adaptor connect to your Intranet.  It supports WEP encryption and MAC address filter to enhance the security of your wireless network.",
+""
+);
+var hlpGsNatStaRoute=new Array
+(
+"General Setup | NAT | Static Routing",
+""
+);
+var hlpGsFwUrlBlockInfo=new Array
+(
+"The Broadband router allows the user to block access to certain Web sites from a particular PC by entering either a full URL address or just a keyword of the Web site. User can enter the full URL address or some keywords of the Web site, The Broadband router will examine all the HTTP packets to block the access to those particular sites. This feature can be used to protect children from accessing certain violent or sexual web sites.",
+""
+);
+var hlpToolsReset=new Array
+(
+"Tools | Reset",
+""
+);
+var hlpGsWlAdvInfo=new Array
+(
+"You can set advanced wireless LAN parameters of this router. The parameters include Authentication Type, Fragment Threshold, RTS Threshold, Beacon Interval, Tx Operation Rate, Tx Basic Rate, Preamble Type, Broadcast ESSID.  You should not change these parameters unless you know what effect the changes will have on this router.",
+""
+);
+var hlpDenialService=new Array
+(
+"Denial of Service",
+""
+);
+var hlpGsNatAdvSpecPbPort=new Array
+(
+"Public Port",
+""
+);
+var helpStaXXlogTbl09=new Array
+(
+"DHCP Client: Send Discover",
+""
+);
+var hlpGlossaryModemList1=new Array
+(
+"Check your Cable/DSL link light to verify a good connection",
+""
+);
+var hlpGlossaryRouterList4=new Array
+(
+"If you are unable to access the Broadband router\'s user interface, please check your computer\'s network settings - - verify that your TCP/IP settings are correct",
+""
+);
+var hlpGsWlAdv=new Array
+(
+"General Setup | Wireless | Advanced Settings",
+""
+);
+var hlpGsFwDmzInfo=new Array
+(
+"If you have a client PC that cannot run an Internet application (e.g. computer games) properly from behind the NAT firewall, then you can open the client up to unrestricted two-way Internet access. On this screen, enter the IP address of a DMZ hosts. Adding a client to the DMZ (Demilitarized Zone) may expose your local network to a variety of security risks, so only use this option as a last resort. The DMZ function allows you to re-direct all packets going to your WAN port IP address to a particular IP address in your LAN.  The difference between the virtual server and the DMZ function is that  the virtual server re-directs a particular service/Internet application (e.g. FTP, websites)  to a particular LAN client/server, whereas DMZ re-directs all packets (regardless of services) going to your WAN IP address to a particular LAN client/server. Note that if there is a conflict between the Virtual Server and the DMZ setting, then Virtual Server function will have priority over the DMZ function.",
+""
+);
+var hlpToolsResetInfo=new Array
+(
+"In the event that the system stops responding correctly or stops functioning, you can perform a Reset. Your settings will not be changed. To perform the reset, click on the APPLY button below. You will be asked to confirm your decision. The Reset will be complete when the LED Power light stops blinking.",
+""
+);
+var hlpGlossaryDnsInfo=new Array
+(
+"DNS stands for Domain Name System, which allows Internet servers to have a domain name (such as www.Broadbandrouter.com) and one or more IP addresses (such as 192.34.45.8). A DNS server keeps a database of Internet servers and their respective domain names and IP addresses, so that when a domain name is requested (as in typing \"Broadbandrouter.com\" into your Internet browser), the user is sent to the proper IP address. The DNS server IP address used by the computers on your home network is the location of the DNS server your ISP has assigned to you. ",
+""
+);
+var hlpGsNatVirServerInfo=new Array
+(
+"You can configure the Broadband router as a Virtual Server so that remote users accessing services such as the Web or FTP at your local site via Public IP Addresses can be automatically redirected to local servers configured with Private IP Addresses. In other words, depending on the requested service (TCP/UDP) port number, the Broadband router redirects the external service request to the appropriate internal server (located at one of your LAN\'s Pirvate IP Address).   Note that you need to give your LAN PC clients a fixed/static IP address for Port Forwarding to work properly.  Some of the applications and protocol/port numbers mapping are defined below",
+""
+);
+var hlpStatusDeviceInfo=new Array
+(
+"This page shows the Broadband router\'s current device settings, including: system LAN IP settings, DHCP and Firewall status. The firewall status is shown enabled if the firewall is enabled (regardless of whether you\'ve configured any of the firewall features).",
+""
+);
+var hlpGlossaryDhcpInfo=new Array
+(
+"Dynamic Host Configuration Protocol. This protocol automatically gives every computer on your home network an IP address.",
+""
+);
+var hlpGlossaryLanInfo=new Array
+(
+"Local Area Network. A LAN is a group of computers and devices connected together in a relatively small area (such as a house or an office). Your home network is considered a LAN.",
+""
+);
+var hlpGsFirewall=new Array
+(
+"General Setup | Firewall",
+""
+);
+var helpStaXXlogTbl04=new Array
+(
+"User from 192.168.2.100 timed out",
+""
+);
+var hlpGsSysPsdSetInfo=new Array
+(
+"Use this menu to restrict management access based on a specific password. By default, the password is \"1234\". So please assign a password to the Administrator as soon as possible, and store it in a safe place. Passwords can contain 0 to 12 alphanumeric characters, and are case sensitive. The \"New Password\" and the \"Confirmed Password\" should be the same.",
+""
+);
+var hlpGsWANTelstraInfo=new Array
+(
+"Select Telstra Big Pond if your ISP requires the Telstra Big Pond protocol to connect you to the Internet. This protocol is often used by Australia ISPs. You should use the User Name, Password and Login Server IP provided by the ISP.",
+""
+);
+var hlpGlossaryEthernetList2=new Array
+(
+"Check all connections to each attached device on the network",
+""
+);
+var hlpGsSysTzInfo=new Array
+(
+"Set the time zone of the system. This time is used for log entries and firewall settings. When daylight savings is enabled, you need to enter the starting and ending time for daylight savings.",
+""
+);
+var hlpGsWANL2TPInfo=new Array
+(
+"Select L2TP if your ISP requires the L2TP protocol to connect you to the Internet. Some ISP assign a IP to you before connecting to the L2TP server. While some ISP require you to obtain IP automatically. You should use the User ID, password and L2TP gateway IP provided by the ISP. The Broadband router supports connection on demand and auto-reconnect features for the L2TP service. If you select the \"Continuous\" connection type, the router will always connect to the ISP. If the WAN line breaks down and links again, the router will auto-reconnect to the ISP. If you select \"Manual\" connection type, the router will connect to ISP only when you click \"Connect\" manually from the Web user interface. The WAN connection will not disconnected due to the idle timeout. If the WAN line breaks down and latter links again, the router will not auto-connect to the ISP. If you select \"Connect On Demand\" connection type, the PPP connection will only be initialized when there is a request to access the Internet from a local client; after an Idle Timeout, when no Internet traffic is requested, the PPP connection will automatically disconnect.",
+""
+);
+var hlpGsNatPortFrwdInfo=new Array
+(
+"The Port Forwarding allows you to re-direct a particular range of service port numbers (from the Internet/WAN Ports) to a particular LAN IP address.  It help you to host some servers behind the router NAT firewall. Note that you need to give your LAN PC clients a fixed/static IP address for Port Forwarding to work properly.",
+""
+);
+var hlpStaticRout=new Array
+(
+"Static Routing",
+""
+);
+var hlpGsFwUrlBlock=new Array
+(
+"General Setup | Firewall | URL Blocking",
+""
+);
+var hlpIpDynamic=new Array
+(
+"Dynamic IP",
+""
+);
+var hlpQuickTypeInfo=new Array
+(
+"Specify the WAN connection type required by your Internet Service Provider. Specify a Cable modem, Fixed-IP xDSL, PPPoE xDSL or a PPTP xDSL connection.",
+""
+);
+var hlpGsLan=new Array
+(
+"General Setup | LAN",
+""
+);
+var hlpPPPoE=new Array
+(
+"PPPoE",
+""
+);
+var hlpWireless=new Array
+(
+"Wireless",
+""
+);
+var hlpInternetCon=new Array
+(
+"Internet Connection",
+""
+);
+var hlpDMZ=new Array
+(
+"DMZ",
+""
+);
+var hlpSecureLog=new Array
+(
+"Security Log",
+""
+);
+var helpStaXXlogTbl01=new Array
+(
+"Log Message",
+""
+);
+var hlpPortForward=new Array
+(
+"Port Forwarding",
+""
+);
+var hlpGlossaryIspGatewayInfo=new Array
+(
+"(see ISP for definition). The ISP Gateway Address is an IP address for the Internet router located at the ISP\'s office. This address is required when using a cable or xDSL modem.",
+""
+);
+var hlpGlossaryModem=new Array
+(
+"CABLE/DSL Modem Checklist",
+""
+);
+var hlpGsWANStaIPInfo=new Array
+(
+"If your Service Provider has assigned a fixed IP address; enter the assigned IP address, subnet mask and the gateway address provided by your service provider.",
+""
+);
+var hlpQuickIpCableInfo=new Array
+(
+"A connection through a cable modem requires minimal configuration. When you set up an account with your Cable provider, the Cable provider and your Broadband router will automatically establish a connection, so you probably do not need to enter anything more.",
+""
+);
+var hlpGsNatStaRouteInfo=new Array
+(
+"If you have many LAN segments and want to connect these LAN segments together, you have to use some regular routers to get it done. To set this router as a regular router, you have to turn off the NAT function of this router by enabling the static routing function. You also have to assign the routing policies that describe how to reach all LAN segments. You can do this by setting packets going to a LAN segment to be forwarded to which router on which interface and the hop count (number of routers) before reaching the destination LAN segment.",
+""
+);
+var hlpStatusDhcp=new Array
+(
+"Status | DHCP Client Log",
+""
+);
+var hlpGlossaryEthernet=new Array
+(
+"Ethernet",
+""
+);
+var hlpQuickIpPPPoEInfo=new Array
+(
+"If you connect to the Internet using an xDSL Modem and your ISP has provided you with a Password and a Service Name, then your ISP uses PPPoE to establish a connection. You must choose this option and enter the required information.",
+""
+);
+var hlpTrblShoot=new Array
+(
+"TROUBLESHOOTING",
+""
+);
+var hlpGlossaryNat=new Array
+(
+"NAT",
+""
+);
+var hlpStatusSecLog=new Array
+(
+"Status | Security Log",
+""
+);
+var hlpPswdSet=new Array
+(
+"Password Settings",
+""
+);
+var hlpGsWANPPTP=new Array
+(
+"General Setup | WAN | PPTP",
+""
+);
+var hlpGsSysRMInfo=new Array
+(
+"Sets the Broadband router\'s WAN port remote management. Remote management from the WAN port can be prohibited, allowed or even restricted to a specified remote host IP address. If you input 0.0.0.0 in the Host IP address this allows all remote users to access the router\'s web-based management remotely.",
+""
+);
+var hlpGsWAN=new Array
+(
+"General Setup | WAN",
+""
+);
+var hlpExample=new Array
+(
+"Example",
+""
+);
+var hlpGsNatVirServerPtc=new Array
+(
+"Protocol",
+""
+);
+var hlpGlossaryModemList4=new Array
+(
+"Reboot your Cable/DSL modem",
+""
+);
+var hlpToolsInfo=new Array
+(
+"This page includes the basic configuration tools, such as Save, Restore Configuration Settings, and Upgrade System Firmware.",
+""
+);
+var hlpGlossaryTcpip=new Array
+(
+"TCP/IP",
+""
+);
+var hlpGlossaryEthernetList5=new Array
+(
+"Each computer must have either Microsoft Windows 95 (or higher) or Mac OS 8.5 (or higher)",
+""
+);
+var hlpStatusDevice=new Array
+(
+"Status | Device Status",
+""
+);
+var hlpGlossaryNatInfo=new Array
+(
+"Network Address Translation. This process allows all of the computers on your home network to use one IP address to access the Internet. Using the broadband router\'s NAT capability, you can access the Internet from any computer on your home network without having to purchase more IP addresses from your ISP.",
+""
+);
+var hlpVirServer=new Array
+(
+"Virtual Server",
+""
+);
+var hlpGsWlAccInfo=new Array
+(
+"This wireless router provides MAC Address Control, which prevents the unauthorized MAC Addresses from accessing your wireless network.  When this function is enabled, only MAC addresses added in the list can access your network through the wireless LAN.",
+""
+);
+var hlpGlossaryIp=new Array
+(
+"IP address ",
+""
+);
+var hlpGsWANStaIP=new Array
+(
+"General Setup | WAN | Static IP",
+""
+);
+var hlpGlossary=new Array
+(
+" GLOSSARY OF TERMS",
+""
+);
+var helpStaXXlogTbl06=new Array
+(
+"DHCP Client: Receive Ack from 192.168.1.3,Lease time=300",
+""
+);
+var hlpGsWANPPPoE=new Array
+(
+"General Setup | WAN | PPPoE",
+""
+);
+var hlpGlossaryRouterList2=new Array
+(
+"Verify power light status",
+""
+);
+var hlpBasicSet=new Array
+(
+"Basic Settings",
+""
+);
+var hlpL2TP=new Array
+(
+"L2TP",
+""
+);
+var hlpFirewall=new Array
+(
+"Firewall",
+""
+);
+var hlpGsNatAlgSetInfo=new Array
+(
+"The Broadband router provides a stateful inspection firewall which is designed to protect against Denial of Service attacks when activated. Its purpose is to allow a private local area network (LAN) to be securely connected to the Internet.",
+""
+);
+var hlpGlossaryMac=new Array
+(
+"MAC address ",
+""
+);
+var helpStaXXlogTbl02=new Array
+(
+"NTP Date/Time updated",
+""
+);
+var hlpPPTP=new Array
+(
+"PPTP",
+""
+);
+var hlpIndex=new Array
+(
+"Help Index",
+""
+);
+var hlpStatusStatistics=new Array
+(
+"Status | Statistics",
+""
+);
+var hlpGsNatVirServer=new Array
+(
+"General Setup | NAT | Virtual Server",
+""
+);
+var hlpStatusSecLogInfo=new Array
+(
+"This page shows the current security log of the Broadband router. It displays any illegal attempts to access your network. At the bottom of the page, the security log can be saved to a local file for further processing or the log in the Broadband router can be cleared. When the system is powered down, the security log will disappear if not saved to a local file.",
+""
+);
+var hlpGlossaryMask=new Array
+(
+"Subnet Mask",
+""
+);
+var helpStaXXlogTbl08=new Array
+(
+"DHCP Client: Receive Offer from 192.168.1.3",
+""
+);
+var hlpToolsCfgInfo=new Array
+(
+"Use the \"Backup\" tool to save the Broadband router\'s current configuration to a file named \"backup_config.exe\" on your PC. You can then use the \"Restore\" tool to restore the saved configuration to the Broadband router. Alternatively, you can use the \"Restore to Factory Defaults\" tool to force the Broadband router to perform a power reset and restore the original factory settings.",
+""
+);
+var hlpStatus=new Array
+(
+"Status",
+""
+);
+var hlpGsNatAdvSpecPbType=new Array
+(
+"Public Type",
+""
+);
+var hlpNAT=new Array
+(
+"NAT",
+""
+);
+var hlpGlossaryIspGateway=new Array
+(
+"ISP Gateway address ",
+""
+);
+var hlpGlossaryDslInfo=new Array
+(
+"DSL stands for Digital Subscriber Line. A DSL modem uses your existing phone lines to transmit data at high speeds. ",
+""
+);
+var hlpTimeZone=new Array
+(
+"Time Zone",
+""
+);
+var hlpQuickIpPPPoE=new Array
+(
+"Quick Setup | IP Address Info | PPPoE",
+""
+);
+var hlpGsNatAdvSpecTrType=new Array
+(
+"Trigger Type",
+""
+);
+var hlpStatusDhcpInfo=new Array
+(
+"This page shows the DHCP Client log of the Broadband router. The information shows all DHCP client PCs currently connected to your network",
+""
+);

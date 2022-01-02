@@ -1,0 +1,1047 @@
+var wlencryptStrChara=new Array
+(
+" characters.",
+""
+);
+var wlencryptStrCharaolitec=new Array
+(
+" characters",
+""
+);
+var wlCtrlEn802=new Array
+(
+"Enable 802.1x Authentication",
+""
+);
+var enableDMZ=new Array
+(
+"Enable DMZ",
+""
+);
+var wlSettings=new Array
+(
+"Wireless Settings",
+""
+);
+var wlRootApSsid=new Array
+(
+"Root AP SSID",
+""
+);
+var wlBroadcastEssid=new Array
+(
+"Broadcast Essid",
+""
+);
+var wlAdOp=new Array
+(
+"Operating Rates Mode",
+""
+);
+var usrDefineService=new Array
+(
+"User Define Service",
+""
+);
+var wlSecureSet=new Array
+(
+"Security Settings",
+""
+);
+var wlCtrlTableInfo=new Array
+(
+"It allows to entry 20 sets address only.",
+""
+);
+var wladvanceStrRts=new Array
+(
+"RTS Threshold",
+""
+);
+var always=new Array
+(
+"Always",
+""
+);
+var addPc=new Array
+(
+"Add PC",
+""
+);
+var fwMacEn=new Array
+(
+"Enable MAC Filtering",
+""
+);
+var fwMacTable=new Array
+(
+"MAC Filtering Table",
+""
+);
+var name=new Array
+(
+"Name",
+""
+);
+var serviceName=new Array
+(
+"Service Name ",
+""
+);
+var deny=new Array
+(
+"Deny",
+""
+);
+var fwadvInvPacket=new Array
+(
+"Invalid value of packet of Ping of Death. Input value should be between 0-255 in decimal.",
+""
+);
+var fwSetInfo=new Array
+(
+"The Broadband router provides extensive firewall protection by restricting connection parameters, thus limiting the risk of hacker attack, and defending against a wide array of common attacks. However, for applications that require unrestricted access to the Internet, you can configure a specific client/server as a Demilitarized Zone (DMZ).<br><br><br><br><br>Enable or disable Firewall module function ",
+""
+);
+var pubIpAddress=new Array
+(
+"Public IP address ",
+""
+);
+var wlCtsProtect =new Array
+(
+"CTS Protect",
+""
+);
+var fwDmzTable=new Array
+(
+"Current DMZ Table",
+""
+);
+var clientPcDescription=new Array
+(
+"Client PC Description",
+""
+);
+var wladvanceStrInterval=new Array
+(
+"Beacon Interval",
+""
+);
+var wlbasicStrMacAddr5=new Array
+(
+"MAC address 5",
+""
+);
+var threshold=new Array
+(
+"Threshold",
+""
+);
+var wlRtsThreshold=new Array
+(
+"RTS Threshold",
+""
+);
+var wlCtrlSerPort=new Array
+(
+"RADIUS Server Port",
+""
+);
+var wlMacAddress=new Array
+(
+"MAC address ",
+""
+);
+var wlCtrlSerIP=new Array
+(
+"RADIUS Server IP address ",
+""
+);
+var fwaddpcStrInvIpStart=new Array
+(
+"Invalid Start IP address.",
+""
+);
+var fwClientMac=new Array
+(
+"Client PC MAC address ",
+""
+);
+var enable=new Array
+(
+"Enable",
+""
+);
+var detailDescription=new Array
+(
+"Detail Description",
+""
+);
+var encryption=new Array
+(
+"Encryption",
+""
+);
+var wlPreambleType=new Array
+(
+"Preamble Type",
+""
+);
+var fwCtrl=new Array
+(
+"Access Control",
+""
+);
+var wlInfo=new Array
+(
+"The gateway can be quickly configured as a wireless access point for roaming clients by setting the access identifier and channel number. It also supports data encryption and client filtering.<br><br><br><br>Enable or disable Wireless module function",
+""
+);
+var wlSiteSurvey=new Array
+(
+"Site Survey",
+""
+);
+var wlWlanMac=new Array
+(
+"WLAN MAC",
+""
+);
+var fwControlAlertInv=new Array
+(
+"Invalid MAC address. It should be in hex number (0-9 or a-f).",
+""
+);
+var fwControlAlertMac=new Array
+(
+"Please enter the MAC when you enable the MAC Filtering function.",
+""
+);
+var fwAccAddInfo=new Array
+(
+"This page allows users to define service limitation of client PC, including IP address and service type.",
+""
+);
+var protocol=new Array
+(
+"Protocol",
+""
+);
+var fwadvInvPacketSync=new Array
+(
+"Invalid value of packet of Sync Flood. Input value should be between 0-255 in decimal.",
+""
+);
+var wlencryptAlertInvVal=new Array
+(
+"Invalid key value. It should be in hex number (0-9 or a-f).",
+""
+);
+var wlCtrlSer=new Array
+(
+"Use internal MD5 RADIUS Server",
+""
+);
+var fwDosSync=new Array
+(
+"Sync Flood ",
+""
+);
+var wlencryptAlertInvPreVal=new Array
+(
+"Invalid pre-shared key value. It should be in hex number (0-9 or a-f).",
+""
+);
+var fwDmz=new Array
+(
+"DMZ(Demilitarized Zone)",
+""
+);
+var fwCS=new Array
+(
+"Client Service",
+""
+);
+var keyTx=new Array
+(
+"Default Tx Key",
+""
+);
+var address=new Array
+(
+"Address ",
+""
+);
+var keyEncry=new Array
+(
+"Encryption Key",
+""
+);
+var clientPcService=new Array
+(
+"Client PC Service",
+""
+);
+var wlAssClients=new Array
+(
+"Associated Clients",
+""
+);
+var fwDosDeath=new Array
+(
+"Ping of Death ",
+""
+);
+var enfwUrl=new Array
+(
+"Enable URL Blocking",
+""
+);
+var wlencryptStrSrvAddr=new Array
+(
+"RADIUS Server address ",
+""
+);
+var staticsIp=new Array
+(
+"Static IP",
+""
+);
+var fwSet=new Array
+(
+"Security Settings (Firewall)",
+""
+);
+var type=new Array
+(
+"Type",
+""
+);
+var transmit=new Array
+(
+"Transmit",
+""
+);
+var fwAccAdd=new Array
+(
+"Access Control Add PC",
+""
+);
+var add=new Array
+(
+"Add",
+""
+);
+var fwurlbAlertInv=new Array
+(
+"Invalid URL Blocking",
+""
+);
+var wlTransmitRate=new Array
+(
+"Transmit Rate",
+""
+);
+var fwUrlKey=new Array
+(
+"URL/Keyword",
+""
+);
+var dynamicIp=new Array
+(
+"Dynamic IP",
+""
+);
+var wlEssid=new Array
+(
+"ESSID",
+""
+);
+var select=new Array
+(
+"Select",
+""
+);
+var clientPcIpAddress=new Array
+(
+"Client PC IP address ",
+""
+);
+var wlSetSecure=new Array
+(
+"Set Security",
+""
+);
+var deleteSelected=new Array
+(
+"Delete Selected",
+""
+);
+var wlWMM=new Array
+(
+"WMM",
+""
+);
+var clientIpAddress=new Array
+(
+"Client IP address ",
+""
+);
+var fwUrlInfo=new Array
+(
+"You can block access to certain Web sites from a particular PC by entering either a full URL address or just a keyword of the Web site.",
+""
+);
+var client=new Array
+(
+"Client",
+""
+);
+var fwDosInfo=new Array
+(
+"The Broadband router\'s firewall can block common hacker attacks, including DoS, Discard Ping from WAN and Port Scan.",
+""
+);
+var allow=new Array
+(
+"Allow",
+""
+);
+var news=new Array
+(
+"New",
+""
+);
+var fwadvPer=new Array
+(
+"Per",
+""
+);
+var wlMixedMode=new Array
+(
+"Mixed Mode",
+""
+);
+var fwDosPing=new Array
+(
+"Discard Ping From WAN ",
+""
+);
+var wlCtrlInfo=new Array
+(
+"For security reason, the Access Point features MAC Address Filtering that only allows authorized MAC Addresses associating to the Access Point.",
+""
+);
+var mode=new Array
+(
+"Mode",
+""
+);
+var fwDos=new Array
+(
+"Denial of Service",
+""
+);
+var wlCtrlWAP=new Array
+(
+"WPA Unicast Cipher Suite",
+""
+);
+var portRange=new Array
+(
+"Port Range",
+""
+);
+var autos=new Array
+(
+"Auto",
+""
+);
+var description=new Array
+(
+"Description",
+""
+);
+var wlDtimPeriod=new Array
+(
+"DTIM Period",
+""
+);
+var fwDosScan=new Array
+(
+"Port Scan ",
+""
+);
+var wlAdvSettings=new Array
+(
+"Advance Settings",
+""
+);
+var wlbasicAlertEmpty=new Array
+(
+"ESSID cannot be empty!",
+""
+);
+var deleteAll=new Array
+(
+"Delete All",
+""
+);
+var fwurlbAlertCannot=new Array
+(
+"Cannot add new entry because table is full!",
+""
+);
+var wlbasicStrMacAddr4=new Array
+(
+"MAC address 4",
+""
+);
+var none=new Array
+(
+"None",
+""
+);
+var wlCtrlSerPass=new Array
+(
+"RADIUS Server Password",
+""
+);
+var wlChannelNum=new Array
+(
+"Channel Number",
+""
+);
+var wlPreambleShort=new Array
+(
+"Short Preamble",
+""
+);
+var protect=new Array
+(
+"Protection",
+""
+);
+var wladvanceStrFrag=new Array
+(
+"Fragment Threshold",
+""
+);
+var face=new Array
+(
+"Interface",
+""
+);
+var fwadvInvBurstSync=new Array
+(
+"Invalid value of Burst of Sync Flood. Input value should be between 0-255 in decimal.",
+""
+);
+var wlAutoMacClone=new Array
+(
+"Auto MAC Clone",
+""
+);
+var wlCtrlAccEn=new Array
+(
+"Enable Wireless Access Control",
+""
+);
+var wlCtrlTable=new Array
+(
+"MAC Address Filtering Table",
+""
+);
+var wlAdTxp=new Array
+(
+"Tx Power",
+""
+);
+var fwaddpcAlertInvPort=new Array
+(
+"Invalid port number! It should be the decimal number (0-9).",
+""
+);
+var wladvanceStrDtim=new Array
+(
+"DTIM Period",
+""
+);
+var disable=new Array
+(
+"Disable",
+""
+);
+var set=new Array
+(
+"Set",
+""
+);
+var fwClientIP=new Array
+(
+"Client PC IP address ",
+""
+);
+var wlAdIntvl=new Array
+(
+"Beacon Interval",
+""
+);
+var wlbasicStrMacAddr=new Array
+(
+"wireless MAC address ",
+""
+);
+var fwIPEn=new Array
+(
+"Enable IP Filtering Table (up to 20 computers)",
+""
+);
+var fwadvInvValue=new Array
+(
+"Invalid value. It should be in decimal number (0-9).",
+""
+);
+var keyLen=new Array
+(
+"Key Length",
+""
+);
+var detail=new Array
+(
+"Detail",
+""
+);
+var wireless=new Array
+(
+"Wireless",
+""
+);
+var wlbasicStrMacAddr3=new Array
+(
+"MAC address 3",
+""
+);
+var wlFragThreshold=new Array
+(
+"Fragment Threshold",
+""
+);
+var wlPreambleLong=new Array
+(
+"Long Preamble",
+""
+);
+var site=new Array
+(
+"Site",
+""
+);
+var fwaddpcAlertIpEmpty=new Array
+(
+"Start IP address cannot be empty! It should be filled with 4 digit numbers as xxx.xxx.xxx.xxx.",
+""
+);
+var keyPre=new Array
+(
+"Pre-shared Key",
+""
+);
+var wlTurboMode=new Array
+(
+"Turbo Mode",
+""
+);
+var wlAdInfo=new Array
+(
+"These settings are only for more technically advanced users who have a sufficient knowledge about wireless LAN. These settings should not be changed unless you know what effect the changes will have on your Broadband router.",
+""
+);
+var wlencryptAlertBlank=new Array
+(
+"The encryption key you selected as the \'Tx Default Key\' cannot be blank.",
+""
+);
+var wlencryptAlertKeyX64=new Array
+(
+"Pre-shared key value should be less than 64 characters.",
+""
+);
+var wlencryptAlertKey8=new Array
+(
+"Pre-Shared Key value should be set at least 8 characters.",
+""
+);
+var keyFrm=new Array
+(
+"Key Format",
+""
+);
+var wlScrInfo=new Array
+(
+"This page allows you setup the wireless security. Turn on WEP or WPA by using Encryption Keys could prevent any unauthorized access to your wireless network.",
+""
+);
+var passphrase=new Array
+(
+"Passphrase",
+""
+);
+var fwDosFeature=new Array
+(
+"Denial of Service Feature",
+""
+);
+var fwControlAlertNot=new Array
+(
+"Input MAC address is not complete. It should be 12 digits in hex.",
+""
+);
+var keyFrmPre=new Array
+(
+"Pre-shared Key Format",
+""
+);
+var wlbasicStrMacAddr1=new Array
+(
+"MAC address 1",
+""
+);
+var wlencryptAlertKey64=new Array
+(
+"Pre-shared key value should be 64 characters.",
+""
+);
+var fwadvPacket=new Array
+(
+"Packet(S)",
+""
+);
+var fwadvBurst=new Array
+(
+"Burst",
+""
+);
+var fwCtrlInfo=new Array
+(
+"Access Control allows users to define the traffic type permitted or not permitted in your LAN. You can control which PC client uses what services in which they can have access to these services.  <br>If both of MAC filtering and IP filtering are enabled simultaneously, the MAC filtering table will be checked first and then IP filtering table.",
+""
+);
+var advance=new Array
+(
+"Advanced",
+""
+);
+var wlbasicStrMacAddr2=new Array
+(
+"MAC address 2",
+""
+);
+var band=new Array
+(
+"Band",
+""
+);
+var wlAdBurst=new Array
+(
+"Transmit Burst Mode",
+""
+);
+var fwadvInvBurst=new Array
+(
+"Invalid value of Burst of Pin of Death. Input value should be between 0-255 in decimal.",
+""
+);
+var wlencryptStrInvKey=new Array
+(
+"Invalid length of Key ",
+""
+);
+var survey=new Array
+(
+"Survey",
+""
+);
+var reset=new Array
+(
+"Reset",
+""
+);
+var fwDmzInfo=new Array
+(
+"If you have a local client PC that cannot run an Internet application properly from behind the NAT firewall, then you can open the client up to unrestricted two-way Internet access by defining a Virtual DMZ Host.",
+""
+);
+var fwUrlTable=new Array
+(
+"Current URL Blocking Table",
+""
+);
+var wlbasicStrMacAddr6=new Array
+(
+"MAC address 6",
+""
+);
+var wlDataRate=new Array
+(
+"Data Rate",
+""
+);
+var wlencryptStrShouldBe=new Array
+(
+" value. It should be ",
+""
+);
+var fwUrl=new Array
+(
+"URL Blocking",
+""
+);
+var wlBasicInfo=new Array
+(
+"This page allows you to define ESSID, and Channel for the wireless connection. These parameters are used for the wireless stations to connect to the Access Point. ",
+""
+);
+var comment=new Array
+(
+"Comment",
+""
+);
+var wlMacAddrFiltering=new Array
+(
+"MAC Address Filtering",
+""
+);
+var fwaddpcStrInvIpEnd=new Array
+(
+"Invalid End IP address.",
+""
+);
+var wlencryptStrSrvPort=new Array
+(
+"Port of RADIUS Server",
+""
+);
+var fwClient=new Array
+(
+"Client PC Description",
+""
+);
+var fwControlAlertIp=new Array
+(
+"Please enter the IP address when you enable the IP Filtering function.",
+""
+);
+var keyolitec=new Array
+(
+"Key",
+""
+);
+var botholitec=new Array
+(
+"Both",
+""
+);
+var apply1=new Array
+(
+"Apply",
+""
+);
+var cancel1=new Array
+(
+"Cancel",
+""
+);
+var IAPP=new Array
+(
+"IAPP",
+""
+);
+var swActCli=new Array
+(
+"Show Active Clients",
+""
+);
+var selSS=new Array
+(
+"Select Site Survey",
+""
+);
+var cloneMac=new Array
+(
+"Clone MAC",
+""
+);
+var clear=new Array
+(
+"Clear",
+""
+);
+var wlChanWidth=new Array
+(
+"Channel Width",
+""
+);
+
+var wpsmenu=new Array
+(
+"WPS",
+""
+);
+
+
+
+
+
+
+var wpsInfo=new Array
+(
+"This page allows you to change the setting for WPS(Wi-Fi Protected Setup).WPS can help your wireless client automatically connect to the Access Point. ",
+""
+);
+var wpsSetting=new Array
+(
+"WPS(Wi-Fi Protected Setup) Settings",
+""
+);
+var wpsSetReset=new Array
+(
+"Reset Configuration",
+""
+);
+var wpsOOB=new Array
+(
+"Reset to Out-Of-Box Configuration",
+""
+);
+var reset=new Array
+(
+"Reset",
+""
+);
+var yes=new Array
+(
+"Yes",
+""
+);
+var no=new Array
+(
+"NO",
+""
+);
+var wpsConfigureSetup=new Array
+(
+"Configuration Setup",
+""
+);
+var wspStatus=new Array
+(
+"WPS Status:",
+""
+);
+var wpsPinCode=new Array
+(
+"Self PinCode:",
+""
+);
+var wpsProxy=new Array
+(
+"Enable Proxy",
+""
+);
+var wpsRegistrar=new Array
+(
+"Use Internal Registar:",
+""
+);
+var deviceConfigure=new Array
+(
+"Device Configure",
+""
+);
+var wpsOption=new Array
+(
+"Configure Option",
+""
+);
+var wpsPinMode=new Array
+(
+"Configure via Client PinCode",
+""
+);
+var wpsPubMode=new Array
+(
+"Configure via Push Button",
+""
+);
+var writePinCode=new Array
+(
+"Write Pin Code",
+""
+);
+var pinNumber=new Array
+(
+"Pin Number",
+""
+);
+var wpsStartPbc=new Array
+(
+"Start PBC",
+""
+);
+var wpsStartpin=new Array
+(
+"Start PIN",
+""
+);
+var wpsSetupInfo=new Array
+(
+"Wi-Fi Protected Setup Information",
+""
+);
+var ssid=new Array
+(
+"SSID",
+""
+);
+var authMode=new Array
+(
+"Authentication Mode",
+"testtest"
+);
+var encryptionType=new Array
+(
+"Encryption Type",
+""
+);
+var psKey=new Array
+(
+"Passphrase Key",
+""
+);
+var wpsAlertInvPin=new Array
+(
+"Invalid pin number! It should be the decimal number (0-9).",
+""
+);
+var configSet=new Array
+(
+"Configuration Setup2",
+""
+);
+var deviceSet=new Array
+(
+"Device Configure2",
+""
+);
+var configRest=new Array
+(
+"Rest Configre2",
+""
+);
+var configMode=new Array
+(
+"Config Mode",
+""
+);

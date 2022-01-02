@@ -1,0 +1,49 @@
+#!/bin/sh
+date 2000.1.1-0:0:0
+ifconfig lo   127.0.0.1 netmask 255.255.255.255
+
+# for squsah romfs
+/bin/mount -o loop -t ramfs /dev/ram0 /var
+/bin/mount -o loop -t ramfs /dev/ram0 /tmp
+
+
+DIRS="l2tp usr/share/udhcpc\
+ web ppp etc/udhcpc etc/udhcpd dnrd run lib/misc linuxigd tmp log dev/pts lock"
+
+
+for dir in $DIRS ; do
+    mkdir -p /var/$dir
+done
+
+for minor in 0 1 2 3 4 5 6 7 8 9 10 ; do
+   mknod -m666 $MKTOP/dev/pts/$minor c 136 $minor
+done
+
+#ln -s  /var/dev dev
+#cp /dev/* /dev
+
+
+mount -t proc proc /proc
+
+insmod /lib/modules/2.6.17.3-gcc-4.1-FV13XX.299/fv13xx/fvmac.ko share_mii=1 mac0_phyaddr=4 mac1_phyaddr=5 mac0_devname=eth1 mac1_devname=eth0
+insmod /lib/modules/2.6.17.3-gcc-4.1-FV13XX.299/fv13xx/fv_fastnat.ko
+
+#end romfs
+
+# Rex add for debug
+syslogd C
+#klogd
+
+# start gateway system
+/bin/init.sh gw all
+
+#/bin/monitor.sh &
+#  extact web pages
+#flash extr /web
+
+# start web server
+webs&
+
+#/etc/stupid-ftpd/ftpd
+
+#/bin/setup

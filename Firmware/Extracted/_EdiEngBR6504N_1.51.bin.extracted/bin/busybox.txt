@@ -1,0 +1,1853 @@
+ELF
+/lib/ld-uClibc.so.0
+libgcc_s.so.1
+malloc
+abort
+__deregister_frame_info
+strlen
+_Jv_RegisterClasses
+__register_frame_info
+raise
+libc.so.0
+longjmp
+putchar
+stpcpy
+strcpy
+unsetenv
+waitpid
+getrlimit
+pause
+ioctl
+getgid
+sysconf
+vsprintf
+utime
+recv
+connect
+sigemptyset
+shmctl
+strerror
+geteuid
+memmove
+getopt_long
+syscall
+mknod
+atol
+getgrgid
+times
+re_syntax_options
+__ctype_b
+getenv
+getegid
+bsearch
+execve
+getprotobyname
+semget
+getpagesize
+getpid
+qsort
+fscanf
+fgets
+dirname
+shmat
+memcpy
+execl
+glob
+perror
+readlink
+dup2
+getuid
+semctl
+system
+isatty
+sleep
+optarg
+sysinfo
+vsnprintf
+recvfrom
+statfs
+strtoul
+gethostbyaddr
+rmdir
+socket
+select
+init_module
+readdir
+lchown
+re_match
+delete_module
+isspace
+mempcpy
+fflush
+__ctype_toupper
+realpath
+putenv
+lseek
+sigaddset
+mmap
+strncasecmp
+setpgid
+getdomainname
+__fgetc_unlocked
+chmod
+alarm
+strtol
+pipe
+getnetbyaddr
+uname
+accept
+strrchr
+basename
+calloc
+wait4
+setrlimit
+strtod
+fstat
+kill
+ctime
+strcat
+re_compile_pattern
+bind
+vprintf
+mkfifo
+reboot
+chdir
+shmdt
+setsockopt
+fseek
+wait3
+shmget
+optind
+memchr
+swapoff
+__stdin
+wait
+umask
+mktime
+lstat
+ferror
+strstr
+unlockpt
+signal
+openlog
+closelog
+strncmp
+query_module
+strncpy
+unlink
+sync
+strcasecmp
+sendto
+realloc
+strtok
+sigfillset
+memcmp
+listen
+fdopen
+sscanf
+execv
+setmntent
+strncat
+sigaction
+endmntent
+killpg
+fread
+__uClibc_main
+strdup
+inet_aton
+regcomp
+symlink
+gettimeofday
+fopen
+getopt
+localtime
+memset
+fnmatch
+clearerr
+fclose
+grantpt
+inet_ntoa
+getppid
+tcgetattr
+regexec
+opendir
+getgroups
+syslog
+ptsname
+herror
+strcmp
+ttyname
+getpwuid
+__h_errno_location
+swapon
+getcwd
+gethostbyname
+getpwnam
+getservbyname
+fgetc
+gethostname
+atexit
+strcspn
+regerror
+stderr
+umount
+vfork
+strsep
+fputc
+globfree
+strftime
+getmntent
+fwrite
+access
+__stdout
+freopen
+tcgetpgrp
+getnetbyname
+__errno_location
+semop
+stime
+klogctl
+getgrnam
+atoi
+fileno
+_setjmp
+_exit
+strspn
+daemon
+vdprintf
+regfree
+strchr
+fputs
+execvp
+__data_start
+setsid
+closedir
+create_module
+vasprintf
+strchrnul
+fcntl
+setuid
+tcsetattr
+mkdir
+sigsetmask
+__ctype_tolower
+vfprintf
+strpbrk
+tcsetpgrp
+sigprocmask
+__fputc_unlocked
+__environ
+_edata
+__bss_start
+__bss_start__
+__bss_end__
+__end__
+_end
+_init
+_fini
+GCC_3.0
+P&y
+p@-
+:$3
+:t2
+:42
+v.B
+v>B
+00C
+0@-
+0@-
+0@-
+0@-
+0@-
+0@-
+0@-
+0@-
+0@-
+0@-
+0@-
+0@-
+0@-
+0@-
+0@-
+p@-
+p@-
+p@-
+p@-
+0@-
+00C
+p@-
+00C
+0@-
+p@-
+0@-
+p@-
+0@-
+0@-
+0@-
+ 0D
+p@-
+0@-
+0@-
+0@-
+0@-
+p@-
+0@-
+0@-
+0@-
+p@-
+@@"
+:l0
+p@-
+p@-
+p@-
+p@-
+a0C
+p@-
+0@-
+:00
+0@-
+p@-
+a B
+a0B
+*X:
+a B
+00C
+80C
+8PE
+8@D
+8PE
+8@D
+8@D
+80C
+:,7
+p@-
+0@-
+0@-
+0@-
+p@-
+gE#
+!C#
+p@-
+"< 
+0@-
+0@-
+p@-
+ELF
+0 K
+,@K
+00C
+00C
+ D"<
+b0A
+AMK
+(@D
+p@-
+0@-
+00C
++@D
++@D
+ f00
+:L0
+0@-
+00C
+00C
+00B
+a0B
+W0B
+00B
+a0A
+W0A
+@ @
+3X0
+0@-
+p@-
+0@-
+0@-
+K?@
+0@-
+p@-
+p@-
+p@-
+.AL
+p@C
+p@L
+p@C
+*|0@
+I?@
+K?C
+*{?@
+I>@
+00C
+0@-
+0@-
+0@-
+p@-
+0@-
+p@-
+p@-
+p@-
+:p@
+0@-
+0@-
+p@-
+p@-
+0@-
+p@-
+0@-
+0@-
+0@-
+1t0
++l 
+0@-
+0@-
+p@-
+0@-
+0@-
+0@-
+p@-
+p@-
+0@-
+p@-
+0@-
+0@-
+0@-
+p@-
+0@-
+p@-
+0@-
+:80
+0@-
+0@-
+p@-
+4 C
+5 C
+0@-
+fpS
+:<2
+0@-
+R0B
+!0`
+p@-
+p@-
+p@-
+00C
+00B
+0 C
+p@-
+0@-
+0@-
+0@-
+p@-
+0@-
+p@-
+00D
+0@-
+0@-
+0@-
+p@-
+p@-
+00G
+00G
+! @
+00D
+00@
+! D
+"0P
+p@-
+p@-
+0@-
+p@-
+p@-
+0@-
+0@-
+0@-
+p@-
+p@-
+0@-
+p@-
+p@-
+` B
+`0C
+`0C
+`0C
+d0C
+`0C
+` B
+` B
+d0C
+*lA
+10C
+10C
+0@-
+p@-
+GENAL
+0@-
+0@-
+GENA
+0PC
+@0!
+*X0
+00A
+p@-
+p@-
+0@-
+0@-
+0@-
+00D
+p@-
+0@-
+:T0
+p@-
+p@-
+0@-
+0@-
+0@-
+p@-
+0@-
+0@-
+0@-
+p@-
+p@-
+p@-
+0@-
+p@-
+00C
+0@-
+00C
+0 B
+00C
+0@-
+0@-
+p@-
+p@-
+p@-
+p@-
+0@-
+0@-
+0@-
+p@-
+@ #!
+0`B
+0C 
+0C 
+!1C "
+1C 
+@ !
+@ !
+0@-
+ PE
+0C"
+0C"
+0C"
+0C"
+0C0
+  S
+  d
+  d
+0@-
+0@-
+0@-
+0@-
+0@-
+ 0b
+p@-
+ @T
+ Pd
+ Pd
+ Pd
+p@-
+`F 
+`F 
+`F 
+`F 
+Z>>
+Z>>
+#<r
+ 0c
+ B"
+ B"
+ B"
+ B"
+ B0
+  b
+  b
+  b
+1} 
+0C 
+0C 
+!1C ,
+1C 
+",S
+30!
+35!
+  s
+ 0b
+`F2
+35!
+ 0k
+`F2
+`F2
+31 
+ 0s
+  c
+pG2
+35!
+  s
+ 0b
+`F2
+35!
+ 0k
+`F2
+`F2
+31 
+ 0s
+  c
+pG2
+applet not found
+Usage: busybox [function] [arguments]...
+   or: [function] [arguments]...
+BusyBox is a multi-call binary that combines many common Unix
+utilities into a single executable.  Most people will create a
+link to busybox for each function they wish to use, and BusyBox
+will act like whatever it was invoked as.
+Currently defined functions:
+No help available.
+Usage: %s %s
+--help
+busybox
+ash
+basename
+cat
+chmod
+cut
+date
+dirname
+dmesg
+echo
+egrep
+env
+expr
+false
+fgrep
+free
+ftpget
+grep
+head
+ifconfig
+init
+insmod
+kill
+killall
+linuxrc
+logger
+logread
+lsmod
+mkdir
+mknod
+modprobe
+mount
+ping
+reboot
+rmdir
+rmmod
+route
+sleep
+swapoff
+swapon
+sync
+syslogd
+tail
+telnetd
+test
+tftp
+top
+true
+tty
+umount
+uname
+uniq
+vconfig
+wget
+which
+xargs
+yes
+FILE [SUFFIX]
+[-u] [FILE]...
+[-R] MODE[,MODE]... FILE...
+[OPTION]... SOURCE DEST
+[OPTION]... [FILE]...
+[OPTION]... [+FORMAT]
+[-hmk] [FILESYSTEM ...]
+[FILENAME ...]
+[-c] [-n LEVEL] [-s SIZE]
+[-aHLdclsxhmk] [FILE]...
+[-neE] [ARG ...]
+[-iu] [-] [name=value]... [command]
+EXPRESSION
+[options] remote-host local-directory remote-file
+[-ihHnqvs] PATTERN [FILEs...]
+[OPTION]... [FILE]...
+[OPTIONS]... [USERNAME]
+[-a] <interface> [<address>]
+[OPTION]... MODULE [symbol=value]...
+[-signal] process-id [process-id ...]
+[-signal] process-name [process-name ...]
+[OPTION] TARGET... LINK_NAME|DIRECTORY
+[OPTION]... [MESSAGE]
+[-1AacCdeilnsTtuwxhk] [filenames...]
+[OPTION] DIRECTORY...
+[OPTIONS] NAME TYPE MAJOR MINOR
+[FILE ...]
+[flags] DEVICE NODE [-o options,more-options]
+host
+[OPTION]... FILE...
+[OPTION]... DIRECTORY...
+[OPTION]... [MODULE]...
+[{add|del|flush}]
+[OPTION] [DEVICE]
+[OPTION] [DEVICE]
+[OPTION]...
+[OPTION]... [FILE]...
+[OPTION]
+EXPRESSION
+  or   [ EXPRESSION ]
+[OPTION]... HOST [PORT]
+[-d <seconds>]
+[-cds] STRING1 [STRING2]
+[flags] FILESYSTEM|DIRECTORY
+[OPTION]...
+[OPTION]... [INPUT [OUTPUT]]
+COMMAND [OPTIONS] ...
+[OPTION] [FILE]...
+[OPTION]... [FILE]...
+[-c|--continue] [-q|--quiet] [-O|--output-document file]
+[--header 'header: value'] [-Y|--proxy on/off] [-P DIR] url
+[COMMAND ...]
+[COMMAND] [-prt] [ARGS...]
+[OPTION]... [STRING]...
+invalid mode: %s
+pdRfia
+b~bcf:c~bcf:f~bcf
+you must specify a list of bytes, characters, or fields
+only one type of list may be specified
+Help ntok is null for starting position! What do I do?
+invalid byte or field list
+missing list of positions
+the delimiter must be a single character
+suppressing non-delimited lines makes sense only when operating on fields
+a delimiter may be specified only when operating on fields
+b:c:f:d:sn
+d~ds:s~ds
+Rs:ud:I::
+TZ=UTC0
+hours
+minutes
+seconds
+%d:%d:%d
+%d.%d-%d:%d:%d
+%d.%d-%d:%d
+%d.%d.%d-%d:%d:%d
+%d.%d.%d-%d:%d
+%2d%2d%2d%2d%d
+cannot set date
+%Y-%m-%d
+%Y-%m-%dT%H:%M:%SZ
+%Y-%m-%dT%H:%M:%S%z
+%Y-%m-%dT%H:%MZ
+%Y-%m-%dT%H:%M%z
+%Y-%m-%dT%HZ
+%Y-%m-%dT%H%z
+%a, %e %b %Y %H:%M:%S GMT
+%a, %e %b %Y %H:%M:%S %z
+%a %b %e %H:%M:%S %Z %Y
+%Y.%m.%d-%H:%M:%S
+%s: can't find mount point.
+rootfs
+/dev/root
+%-21s%9s 
+%9s 
+%9s %3ld%% %s
+h-km:k-hm:m-hk
+hmk
+     Size
+1M-blocks
+Filesystem%11s%-15sUsed Available Use%% Mounted on
+1k-blocks
+POSIXLY_CORRECT
+h-km:k-hm:m-hk:H-L:L-H:s-d:d-s
+aHkLsxd:lchm
+total
+neE
++iu:
+putenv
+ignore-environment
+unset
+warning: unportable BRE: `%s': using `^' as the first character
+of a basic regular expression is not portable; it is being ignored
+non-numeric argument
+division by zero
+quote
+syntax error
+match
+index
+substr
+too few arguments
+n:c:qv
+==> %s <==
+ugrn
+%ld
+uid=%ld(%s) gid=%ld(%s)
+sfn
+%7ld 
+%4ld 
+%-10s 
+%-8d %-8d
+%4d, %3d 
+%9ld 
+%24.24s 
+%6.6s 
+%5.5s 
+ %4.4s 
+ -> 
+%s:
+1AaCdgilnsxecuthkT:w:
+m:p
+invalid mode `%s'
+mode
+parents
+pcub
+f-i:i-f
+fiRr
+cannot remove `.' or `..'
+read
+no files
+fn:c:qs:v
+==> %s <==
+%s: out of range
+%s: bad number
+argument expected
+closing paren expected
+missing ]
+unknown operand
+-eq
+-ne
+-ge
+-gt
+-le
+-lt
+-nt
+-ot
+-ef
+STRING2 cannot be empty
+not a tty
+cannot get system name
+unknown
+snrvmpa
+%7d
+f:s:cdu
+lwcL
+ %7u
+ %s
+total
+ %s
+PATH
+/bin
+/sbin
+/usr/bin
+/usr/sbin
+/usr/local/bin
+ [Read only]
+ [modified]
+"%s"%s%s line %d of %d --%d%%--
+These features are available:
+Pattern searches with / and ?
+Last command repeat with '.'
+Line marking with  'x
+Named buffers with  "x
+Readonly if vi is called as "view"
+Readonly with -R command line arg
+Some colon mode commands with ':'
+Settable options with ":set"
+Signal catching- ^C
+Job suspend and resume with ^Z
+Adapt to window re-sizes
+No file
+can't delete the character
+can't create room for new characters
+No filename given
+Trying to insert a negative number (%d) of characters
+Trying to insert file outside of memory
+"%s" %s
+could not open file
+could not read file "%s"
+could not read all of file "%s"
+(NULL)
+'%s' is not implemented
+last_modifying_cmd overrun
+Put %d lines (%d chars) from [%c]
+%d%n
+No current filename
+)]}
+[Hit return to continue]
+Nothing in register %c
+()[]{}
+No previous regular expression
+search hit BOTTOM, continuing at TOP
+search hit TOP, continuing at BOTTOM
+Pattern not found
+delete
+No write since last change (:edit! overrides)
+"%s" is not a regular file
+"%s" is not readable
+ [New file]
+"%s"%s%s %dL, %dC
+No address allowed on this command
+features
+list
+quit
+next
+No write since last change (:%s! overrides)
+%d more file to edit
+No more files to edit
+"%s"%s %dL, %dC
+rewind
+No write since last change (:rewind! overrides)
+set
+----------------------------------------
+autoindent 
+flash 
+ignorecase 
+showmatch 
+tabstop=%d 
+=%d
+write
+"%s" File is read only
+"%s" %dL, %dC
+yank
+Yank %d lines (%d chars) into [%c]
+:s expression missing delimiters
+-- Insert --
+-- Replace --
+^0bBeEft$
+cdykjHL%+-{}
+Change
+Delete
+Yank
+%s %d lines (%d chars) using [%c]
+cdy><
+^%$0bBeEft
+H-k{
+L+j}
+(terminate)
+(bus error)
+(I tried to touch invalid memory)
+(alarm)
+-- caught signal %d %s--
+(window resize)
+(hangup)
+(interrupt)
+view
+aAcCdDiIJoOpPrRsxX<>~
+hCR
+[1~
+[2~
+[4~
+[5~
+[6~
+[15~
+[17~
+[18~
+[19~
+[20~
+[21~
+[23~
+[24~
+[11~
+[12~
+[13~
+[14~
+[7m
+[0m
+[0J
+$Id: vi.c,v 1.1.1.1 2003/10/03 04:56:37 root Exp $
+[%d;%dH
+[0K
+%s%c
+%i%c
+H-h:e*:f*:C-AB
+lnqvscFiHhe:f:A:B:CE
+invalid context length argument
+%s:
+vfork
+tpr
+/bin/echo
+ ?...
+/bin/umount -a -r
+/sbin/init
+-/bin/sh
+/dev/vc/2
+/dev/vc/3
+/dev/vc/4
+/etc/init.d/rcS
+/dev/console
+/dev/null
+Memory allocation failure
+/sbin/reboot
+device '%s' does not exist.
+Bummer, can't open %s
+Can't fork!
+~`!$^&*()=|\{}[];"'<>?
+/bin/sh
+exec 
+Starting pid %d, console %s: '%s'
+Bummer, could not run '%s': %m
+CONSOLE
+console
+/dev/tts/%d
+/dev/vc/%d
+/dev/vc/0
+TERM
+linux
+TERM=vt102
+TERM=linux
+init started:  %s
+Error checking free memory
+Sorry, your computer does not have enough memory.
+single
+No more tasks for init -- sleeping forever.
+Process '%s' (pid %d) exited.  Scheduling it for restart.
+Reloading /etc/inittab
+The system is going down NOW !!
+Sending SIGTERM to all processes.
+Sending SIGKILL to all processes.
+Please stand by while rebooting the system.
+The system is halted. Press Reset or turn off power
+exec of '%s' failed: %m
+HOME=/
+PATH=/usr/bin:/bin:/usr/sbin:/sbin
+SHELL=/bin/sh
+USER=root
+Please press Enter to activate this console. 
+parameter type 'c' for %s must be followed by the maximum size
+string too long for %s (max %ld)
+unknown parameter type '%c' for %s
+too many values for %s (max %d)
+invalid argument syntax for %s
+too few values for %s (min %d)
+.init
+%s multiply defined
+local symbol %s with index %ld exceeds local_symtab_size %ld
+error reading ELF header
+not an ELF file
+ELF file not for this architecture
+ELF file not a relocatable object
+section header size mismatch: %lu != %lu
+error reading ELF section headers
+error reading ELF section data
+RELA relocations not supported on this architecture
+can't handle sections of type %ld
+.modinfo
+symbol size mismatch: %lu != %lu
+relocation entry size mismatch: %lu != %lu
+GPLONLY_
+.kstrtab
+.kmodtab
+__this_module
+__ksymtab
+parm_
+invalid parameter %s
+symbol for parameter %s not found
+improperly terminated string argument for %s
+cannot get realpath for %s
+.this
+???
+%s%s_O%s_M%0*lX_V%d
+%s%s_S%s_L%ld
+fkqsvxLo:
+%s.ko
+%s.o
+/lib/modules
+%s: no module by that name found
+Using %s
+Could not load the module
+kernel_version
+QM_MODULES
+query_module: QM_INFO: %s
+query_module: QM_SYMBOLS: %s
+kernel: QM_SYMBOLS
+Using_Versions
+Not configured to support old kernels
+unresolved symbol %s
+.got
+.plt
+A module named %s already exists
+Can't allocate kernel memory for module; needed %lu bytes
+create_module: %s
+Warning: unhandled reloc %d
+Unhandled relocation
+Dangerous relocation
+Relocation overflow
+%s of type %ld for %s
+%s of type %ld
+corrupt module %s?
+init_module
+cleanup_module
+__ex_table
+.text.init
+.data.init
+__archdata
+__kallsyms
+init_module: %s
+cannot open module `%s'
+cannot mmap `%s'
+Module has wrong symbol version
+Invalid parameters
+Invalid module format
+Unknown symbol in module
+cannot insert `%s': %s (%li)
+.text
+.rodata
+.data
+.bss
+.sbss
+__insmod_
+Module                  Size  Used by
+/proc/modules
+module %s not found.
+exec of %s
+-t and -C not supported
+acdklnqrst:vVC:
+/lib/modules/
+/lib/modules/modules.dep
+/etc/modprobe.conf
+/etc/modules.conf
+/etc/conf.modules
+alias
+options
+could not parse modules.dep
+failed to remove module %s
+No module or pattern provided
+failed to load module %s
+cmd %s%s
+%s%s
+fgets()
+tcp
+anonymous
+busybox@
+u:p:P:cv
+Couldnt open control stream
+USER 
+PASS 
+PASS error: %s
+USER error: %s
+TYPE I
+PASV
+PASV error: %s
+SIZE 
+fstat()
+REST %ld
+RETR 
+RETR error: %s
+ftp error: %s
+QUIT
+username
+password
+port
+continue
+verbose
+socket
+ether
+invalid hw-addr %s
+SIOCGIFFLAGS
+SIOCSIFFLAGS
+metric
+mtu
+txqueuelen
+dstaddr
+netmask
+broadcast
+pointopoint
+arp
+trailers
+promisc
+multicast
+allmulti
+dynamic
+down
+SIOCSIFMETRIC
+SIOCSIFMTU
+SIOCSIFTXQLEN
+SIOCSIFDSTADDR
+SIOCSIFNETMASK
+SIOCSIFBRDADDR
+SIOCSIFHWADDR
+SIOCSIFADDR
+sendto
+recvfrom
+%s is alive!
+No response from %s
+/proc/net/route
+Kernel IP routing table
+Metric Ref    Use
+  MSS Window  irtt
+Destination     Gateway         Genmask         Flags %s Iface
+%lx%lx%X%d%d%d%lx%d%d%d
+Unsuported kernel route format
+%-16s%-16s%-16s%-6s
+%5d %-5d %6d %s
+%-6d %-2d %7d %s
+A:ne
+add
+del
+flush
+-net
+-host
+can't resolve %s
+can't resolve netmask %s
+gateway
+can't resolve gw %s
+%s: cannot use a NETWORK as gateway!
+mss
+Invalid MSS.
+window
+Invalid window.
+irtt
+reject
+mod
+dyn
+reinstate
+device
+dev
+netmask %.8x doesn't make sense with host route
+bogus netmask %s
+netmask doesn't match route address
+SIOCDELRT
+SIOCADDRT
+NONE
+'%s' unavailable.
+bind
+listen
+daemon
+/dev/ptmx
+Can`t forking
+Could not open tty
+execv error
+All network ports in use!
+/etc/issue.net
+f:l:p:
+pl:r:
+local file
+too long remote-filename
+octet
+send
+timeout
+last timeout
+select
+server says: %s
+Undefined error
+File not found
+Access violation
+Disk full or allocation error
+Illegal TFTP operation
+Unknown transfer ID
+File already exists
+No such user
+http://
+ftp://
+not an http or ftp url: %s
+bad header line: %s
+fdopen()
+%s%s
+quiet
+output-document
+header
+passive-ftp
+extra_headers buffer too small(need %i)
+cqO:P:Y:
+ftp_proxy
+http_proxy
+index.html
+cannot specify continue (-c) without a filename (-O)
+too many redirections
+GET %stp://%s:%d/%s HTTP/1.1
+GET /%s HTTP/1.1
+Host: %s
+User-Agent: Wget
+Range: bytes=%ld-
+Connection: close
+no response from server
+server returned error %d: %s
+content-length
+transfer-encoding
+chunked
+server wants to do %s transfer encoding
+anonymous:busybox@
+ftp login: %s
+CDUP
+SIZE /
+PASV: %s
+RETR /
+RETR: %s
+write error
+network read error
+open %s
+if_name >= %d chars
+socket or ioctl error for %s
+/proc/net/vlan/config
+add
+rem
+set_name_type
+set_flag
+set_egress_map
+set_ingress_map
+VLAN_PLUS_VID
+VLAN_PLUS_VID_NO_PAD
+DEV_PLUS_VID
+DEV_PLUS_VID_NO_PAD
+used
+shared
+buffers
+%6s%13ld%13ld%13ld%13ld%13ld
+Mem:
+%6s%13ld%13ld%13ld
+Swap:
+Total:
+%6s%13s%13s%13s%13s%13s
+%2d) %-16s
+bad signal name '%s'
+Bad PID '%s'
+Could not kill pid '%d'
+%s: no process killed
+Could not kill pid '%ld'
+  PID  Uid     VmSize Stat Command
+%5d %-8s        %s 
+%5d %-8s %6ld %s 
+[%s]
+/proc
+chdir('/proc')
+scandir('/proc')
+uptime
+/proc not be mounted?
+stat
+cpu %lu %lu %lu %lu
+meminfo
+Mem: %lu %lu %lu %lu %lu %lu
+failed to read '%s'
+loadavg
+[JMem: %ldK used, %ldK free, %ldK shrd, %ldK buff, %ldK cached
+Load average
+[7m  PID USER     STATUS   RSS  PPID %%CPU %%MEM COMMAND
+[0m
+%6ldM
+%7ld
+%5d %-8s %s  %s %5d %2d.%d %2u.%u 
+builtin
+ | %s
+%s: 
+%s: %d: 
+%d: %m
+Syntax error: %s
+Illegal option -%c
+No arg for -%c option
+%s: %s not found
+unalias
+parameter not set
+ or null
+%.*s: %s%s
+Bad fd number
+%.*s: is read only
+%.*s: bad variable name
+OLDPWD
+PWD
+You have stopped jobs.
+Built-in commands:
+-------------------
+%c%s
+Current option settings
+%-16s%s
+Illegal option -o %s
+login
+Can't open %s
+Out of file descriptors
+Cannot set tty process group (%m)
+/etc/./get_passwd.sh
+rm /etc/get_passwd.sh
+/dev/tty
+can't access tty; job control turned off
+sh: turning off NDELAY mode
+%s unexpected
+ (expecting %s)
+$((
+${#
+$(...)
+"$(...)"
+<<...
+ && 
+until 
+ || 
+ | 
+if 
+; then 
+; fi
+; else 
+while 
+; do 
+; done
+for 
+ in 
+() { ... }
+case 
+;; 
+esac
+can't shift that many
+No previous job
+No current job
+No such job: %s
+%s: ambiguous
+job %s not created under job control
+ (core dumped)
+Done(%d)
+Done
+[%d] 
+Cannot fork
+[%d]   
+Running
+%*c%d 
+%s%*c%s
+%.4o
+Illegal mode: %s
+HSatfdsmcnpl
+internal error (%c)
+too many arguments
+unlimited
+%-20s 
+%lld
+error setting limit (%m)
+trap -- %s %s
+%s: bad trap
+%s=%s
+%dm%fs %dm%fs
+%dm%fs %dm%fs
+%s%s%.*s%s
+p:r
+arg count
+IFS
+Usage: kill [-s sigspec | -signum | -sigspec] [pid | job]... or
+kill -l [exitstatus]
+invalid signal number or name: %s
+ls:
+invalid signal number or exit status: %s
+divide by zero
+CDPATH
+can't cd to %s
+Pipe call failed
+Directory nonexistent
+cannot create %s: %s
+No such file
+cannot open %s: %s
+Missing '))'
+Unterminated quoted string
+Missing '}'
+Bad substitution
+EOF in backquote substitution
+Illegal eof marker for << redirection
+Bad for loop variable
+Bad function name
+Use "exit" to leave shell.
+%builtin
+func
+%s not defined in %s
+ is a shell keyword
+ is an alias for %s
+ a tracked alias for
+ is%s %s
+ is a shell function
+special 
+ is a %sshell builtin
+: not found
+PS1=# 
+PPID
+-c requires an argument
+/etc/profile
+.profile
+ENV
+PS1=$ 
+PS2=> 
+PS4=+ 
+eerrexit
+fnoglob
+Iignoreeof
+iinteractive
+mmonitor
+nnoexec
+sstdin
+xxtrace
+vverbose
+Cnoclobber
+aallexport
+bnotify
+unounset
+qquietprofile
+/bin/setup
+end of file
+done
+elif
+else
+esac
+then
+6alias
+2bg
+3break
+2cd
+0chdir
+3continue
+3eval
+3exec
+3exit
+0exp
+7export
+2false
+2fg
+0hash
+0help
+2jobs
+2kill
+0let
+4local
+0pwd
+2read
+7readonly
+3return
+3set
+3shift
+3times
+3trap
+2true
+0type
+0ulimit
+2umask
+2unalias
+3unset
+2wait
+time(seconds)
+file(blocks)
+data(kbytes)
+stack(kbytes)
+coredump(blocks)
+memory(kbytes)
+locked memory(kbytes)
+process(processes)
+nofiles(descriptors)
+IFS= 
+newline
+redirection
+word
+case
+for
+until
+while
+}-+?=
+ !"$&'()*-/:;<=>?[\]`|}~
+()&|;
+Illegal number: %s
+rwx
+ugo
+%s: not found
+HOME
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+../
+%*s
+[%dD
+[%dA
+[%dC
+ `"#$%^&*()=+{}[]:;'|\<>
+unknown facility name: %s
+unknown priority name: %s
+p:st:
+Can't find circular buffer
+Can't get access to circular buffer from syslogd
+Can't get access to semaphone(s) for circular buffer from syslogd
+semop[SMrdn]
+<empty syslog>
+semop[SMrup]
+semop[SMwdn]
+Weird! Can't find the terminator token??? 
+Weird! Can't find the terminator token from the beginning??? 
+semop[SMwup]
+Bummer, can't print: 
+<%d>
+%s.%s
+%s %s %s %s
+shmget
+shmat
+semget
+Buffer already allocated just grab the semaphore?
+Couldn't get file descriptor for socket /dev/log
+Could not connect to socket /dev/log
+Could not set permission on /dev/log
+syslogd started: BusyBox v1.00-pre2 (2007.12.13-07:31+0000)
+select error
+UNIX socket error
+Exiting Syslogd!
+System log daemon exiting.
+alert
+crit
+debug
+emerg
+err
+none
+notice
+panic
+warn
+warning
+auth
+authpriv
+cron
+kern
+lpr
+mail
+mark
+news
+security
+syslog
+uucp
+local0
+local1
+local2
+local3
+local4
+local5
+local6
+local7
+/var/log/messages
+cn:s:
+auto
+o:rt:wafnv
+%s on %s type %s (%s)
+/etc/fstab
+Cannot read /etc/fstab
+noauto
+swap
+/etc/filesystems
+/proc/filesystems
+Mounting %s on %s failed
+Can't find %s in /etc/fstab
+%s is write-protected, mounting read-only
+async
+atime
+defaults
+diratime
+exec
+noatime
+nodev
+nodiratime
+noexec
+nosuid
+remount
+suid
+cannot stat %s
+swap file has holes
+/etc/fstab file missing
+%s busy - remounted read-only
+Cannot remount %s read-only
+Cannot open %s
+Couldn't umount %s on %s: %s
+unable to stat `%s'
+!<>=|&*/%~()+-
+&gGO
+)nNbb_xasprintf
+%s%s%s
+`%s' and `%s' are the same file
+%s: omitting directory
+`%s' is not a directory
+cannot create directory `%s'
+unable to open directory `%s'
+unable to change permissions of `%s'
+%s: overwrite `%s'? 
+unable to open `%s'
+unable to remove `%s'
+unable to close `%s'
+internal error: unrecognized file type
+unable to create `%s'
+cannot create fifo `%s'
+cannot create symlink `%s'
+unable to preserve ownership of `%s'
+unable to preserve times of `%s'
+unable to preserve permissions of `%s'
+Unable to read all data
+Read error
+icmp
+could not stat '/'
+/dev
+could not open '/dev'
+%Lu.%d%c
+%Lu
+kMGT
+default
+/proc/net
+No usable address families found.
+%02X-
+[NONE SET]
+warning: no inet socket available
+SIOCGIFCONF
+/proc/net/dev
+Warning: cannot open %s. Limited output.
+compressed
+%Lu %Lu %lu %lu %lu %lu %lu %lu %Lu %Lu %lu %lu %lu %lu %lu %lu
+%Lu %Lu %lu %lu %lu %lu %Lu %Lu %lu %lu %lu %lu %lu
+%Lu %lu %lu %lu %lu %Lu %lu %lu %lu %lu %lu
+Device not found
+%s: error fetching interface information: %s
+X bytes:%Lu (%Lu.%lu %siB)%s
+%-9.9s Link encap:%s  
+HWaddr %s  
+Media:%s
+(auto)
+          %s addr:%s 
+ P-t-P:%s 
+ Bcast:%s 
+ Mask:%s
+          
+[NO FLAGS] 
+UP 
+BROADCAST 
+DEBUG 
+LOOPBACK 
+POINTOPOINT 
+NOTRAILERS 
+RUNNING 
+NOARP 
+PROMISC 
+ALLMULTI 
+SLAVE 
+MASTER 
+MULTICAST 
+ MTU:%d  Metric:%d
+RX packets:%Lu errors:%lu dropped:%lu overruns:%lu frame:%lu
+             compressed:%lu
+TX packets:%Lu errors:%lu dropped:%lu overruns:%lu carrier:%lu
+          collisions:%lu 
+compressed:%lu 
+txqueuelen:%d 
+          R
+  T
+Interrupt:%d 
+Base address:0x%lx 
+Memory:%lx-%lx 
+DMA chan:%x 
+%02X:%02X:%02X:%02X:%02X:%02X
+10base2
+bnc
+coax
+10baseT
+utp
+tpe
+AUI
+thick
+db15
+100baseT
+100baseTX
+100baseFX
+inet
+DARPA Internet
+unspec
+UNSPEC
+loop
+Local Loopback
+Ethernet
+ppp
+Point-Point Protocol
+cannot get system information
+ login: 
+%A, %d %B %Y
+%H:%M:%S
+create
+set permissions of
+Cannot %s directory `%s'
+?pc?d?b?-?l?s???rwxSTst
+/proc/mounts
+unknown group name: %s
+unknown user name: %s
+unknown gid %ld
+rwxXst
+augo
+abfnrtv\
+Can't open /proc
+/proc/%d/stat
+%*s (%15c
+%c %d %*s %*s %*s %*s %*s %*s %*s %*s %*s %lu %lu %*s %*s %*s %ld %*s %*s %*s %*s %ld
+/proc/%d/cmdline
+cannot remove `%s'
+%s: is a directory
+%s: descend into directory `%s'? 
+%s: remove directory `%s'? 
+%s: remove `%s'? 
+EXIT
+HUP
+INT
+ILL
+ABRT
+FPE
+KILL
+SEGV
+PIPE
+ALRM
+USR1
+USR2
+CHLD
+CONT
+STOP
+TSTP
+TTIN
+TTOU
+TRAP
+IOT
+BUS
+SYS
+STKFLT
+URG
+POLL
+CLD
+XCPU
+XFSZ
+VTALRM
+PROF
+PWR
+WINCH
+UNUSED
+SIG
+Unable to connect to remote host (%s)
+getcwd()
+xregcomp: %s
+ignoring all arguments
+BusyBox v1.00-pre2 (2007.12.13-07:31+0000) multi-call binary
+memory exhausted
+invalid date `%s'
+Write Error
+can`t create raw socket
+permission denied. (are you root?)
+standard input
+bb_xstrndup bug
+standard output
+/dev/console
+.shstrtab
+.interp
+.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame
+.ctors
+.dtors
+.jcr
+.dynamic
+.got
+.data
+.bss

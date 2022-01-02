@@ -1,0 +1,356 @@
+var keyPre=new Array
+(
+"Pre-shared Key",
+""
+);
+var channelNum=new Array
+(
+"Channel Number",
+""
+);
+var mode=new Array
+(
+"Mode",
+""
+);
+var secure=new Array
+(
+"Security",
+""
+);
+var essid=new Array
+(
+"Essid",
+""
+);
+var wirelessWSet=new Array
+(
+"Wireless WAN Setting",
+""
+);
+var wlCtrlWAP=new Array
+(
+"WPA Unicast Cipher Suite",
+""
+);
+var keyFrm=new Array
+(
+"Key Format",
+""
+);
+var rate=new Array
+(
+"Rate",
+""
+);
+var wlAcTble=new Array
+(
+"Active Wireless Client Table",
+""
+);
+var wlValidateKeyAlert4=new Array
+(
+" characters.",
+""
+);
+var wlValidateKeyAlert2=new Array
+(
+"Invalid length of Key",
+""
+);
+var refresh=new Array
+(
+"Refresh",
+""
+);
+var passphrase=new Array
+(
+"Passphrase",
+""
+);
+var keyTx=new Array
+(
+"Default Tx Key",
+""
+);
+var address=new Array
+(
+"address ",
+""
+);
+var packet=new Array
+(
+"Packets",
+""
+);
+var keyFrmPre=new Array
+(
+"Pre-shared Key Format",
+""
+);
+var keyEncry=new Array
+(
+"Encryption Key",
+""
+);
+var period=new Array
+(
+"Period",
+""
+);
+var wlExpTime=new Array
+(
+"Expired Time",
+""
+);
+var txRate=new Array
+(
+"Tx Rate",
+""
+);
+var wlstatblContent=new Array
+(
+"This table shows the MAC address, transmission, receiption packet counters for each associated wireless client.",
+""
+);
+var saveChangesAlert4=new Array
+(
+"Pre-shared key value should be less than 64 characters.",
+""
+);
+var selectSite=new Array
+(
+"Select Site Survey",
+""
+);
+var saveChangesAlert2=new Array
+(
+"Invalid pre-shared key value. It should be in hex number (0-9 or a-f).",
+""
+);
+var siteSurvey=new Array
+(
+"Site Survey",
+""
+);
+var txError=new Array
+(
+"Tx Error",
+""
+);
+var wlwdstblContent=new Array
+(
+" This table shows the MAC address, transmission, receiption packet counters and state information for each configured WDS AP.",
+""
+);
+var transmit =new Array
+(
+"Transmit ",
+""
+);
+var wdsSecureSet=new Array
+(
+"WDS Security Setting",
+""
+);
+var disabled=new Array
+(
+"Disabled",
+""
+);
+var macAddress=new Array
+(
+"MAC address ",
+""
+);
+var number=new Array
+(
+"Number",
+""
+);
+var wpaKey=new Array
+(
+"WPA pre-shared key",
+""
+);
+var saveChangesAlert=new Array
+(
+"Pre-shared key value should be 64 characters.",
+""
+);
+var applys=new Array
+(
+"Apply",
+""
+);
+var wep=new Array
+(
+"WEP",
+""
+);
+var channel=new Array
+(
+"Channel",
+""
+);
+var wlSavPower=new Array
+(
+"Power Saving",
+""
+);
+var wlWdsTbl=new Array
+(
+"WDS AP Table",
+""
+);
+var close=new Array
+(
+"Close",
+""
+);
+var reset=new Array
+(
+"Reset",
+""
+);
+var survey=new Array
+(
+"Survey",
+""
+);
+var error=new Array
+(
+"Errors",
+""
+);
+var wlValidateKeyAlert=new Array
+(
+"The encryption key you selected as the \'Tx Default Key\' cannot be blank.",
+""
+);
+var wlValidateKeyAlert5=new Array
+(
+"Invalid key value. It should be in hex number (0-9 or a-f).",
+""
+);
+var wlValidateKeyAlert3=new Array
+(
+" value. It should be ",
+""
+);
+var select=new Array
+(
+"Select",
+""
+);
+var wlWdsEnp=new Array
+(
+"This page allows you setup the WDS security. The value depends on your AP Security settings.",
+""
+);
+var enable=new Array
+(
+"Enable",
+""
+);
+var encryption=new Array
+(
+"Encryption",
+""
+);
+var saveChangesAlert3=new Array
+(
+"Pre-Shared Key value should be set at least 8 characters.",
+""
+);
+var settings=new Array
+(
+"Settings",
+""
+);
+var keyLen=new Array
+(
+"Key Length",
+""
+);
+var txPacket=new Array
+(
+"Tx Packet",
+""
+);
+var wireless=new Array
+(
+"Wireless",
+""
+);
+var wlBasicInfo=new Array
+(
+"This page allows you to define ESSID, and Channel for the wireless connection. These parameters are used for the wireless stations to connect to the Access Point. ",
+""
+);
+var rxPacket=new Array
+(
+"Rx Packet",
+""
+);
+var wlencryptStrCharaolitec=new Array
+(
+" characters",
+""
+);
+var wlss=new Array
+(
+"Wireless Site Survey",
+""
+);
+var wlss1=new Array
+(
+"This page provides tool to scan the wireless network. If any Access Point or IBSS is found, you could choose to connect it manually when client mode is enabled.",
+""
+);
+var SSID=new Array
+(
+"SSID",
+""
+);
+var BSSID=new Array
+(
+"BSSID",
+""
+);
+var type=new Array
+(
+"Type",
+""
+);
+var encrypt=new Array
+(
+"Encrypt",
+""
+);
+var signal=new Array
+(
+"Signal",
+""
+);
+var connect=new Array
+(
+"Connect",
+""
+);
+var done=new Array
+(
+"Done",
+""
+);
+var cancel1=new Array
+(
+"Cancel",
+""
+);
+var keyolitec=new Array
+(
+"Key",
+""
+);
+

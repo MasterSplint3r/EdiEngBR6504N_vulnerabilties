@@ -1,0 +1,578 @@
+var natUPnP=new Array
+(
+"UPnP",
+""
+);
+var qosInfo=new Array
+(
+"Quality of Service (QoS) refers to the capability of a network to provide better service to selected network traffic. The primary goal of QoS is to provide priority including dedicated bandwidth, controlled jitter and latency (required by some real-time and interactive traffic), and improved loss characteristics. Also important is making sure that providing priority for one or more flows does not make other flows fail.",
+""
+);
+var natSr=new Array
+(
+"Static Routing",
+""
+);
+var natSappInfo=new Array
+(
+"Some applications require multiple connections, such as Internet gaming, video conferencing, Internet telephony and others. These applications cannot work when Network Address Translation (NAT) is enabled. If you need to run applications that require multiple connections, specify the port normally associated with an application in the \"Trigger Port\" field,select the protocol type as TCP or UDP, then enter the public ports associated with the trigger port to open them for inbound traffic.<br>    Note:The range of the Trigger Port is 1 to 65535.",
+""
+);
+var qosTable=new Array
+(
+"Current QoS Table",
+""
+);
+var natPortPub=new Array
+(
+"Public Port",
+""
+);
+var natTcpPort=new Array
+(
+"TCP Port to Open",
+""
+);
+var natUdpPort=new Array
+(
+"UDP Port to Open",
+""
+);
+var save=new Array
+(
+"Save",
+""
+);
+var natTrigType=new Array
+(
+"Trigger Type",
+""
+);
+var qosUpload=new Array
+(
+"Upload Bandwidth",
+""
+);
+var wanqosAlertTestCha=new Array
+(
+"You are changing the settings, please press apply to save your settings!!",
+""
+);
+var natPortInfo=new Array
+(
+"Entries in this table allow you to automatically redirect common network services to a specific machine behind the NAT firewall.  These settings are only necessary if you wish to host some sort of server like a web server or mail server on the private local network behind your Gateway\'s NAT firewall.",
+""
+);
+var wanqosAlertTestNew=new Array
+(
+"new page!",
+""
+);
+var wanqosaddMacAddr=new Array
+(
+"MAC Address ",
+""
+);
+var natALGComArrayQuake3=new Array
+(
+"Support for Quake III Arena connection tracking and nat.",
+""
+);
+var natALGComArrayAmanda=new Array
+(
+"Support for Amanda backup tool protocol.",
+""
+);
+var natALGComArrayTFTP=new Array
+(
+"Support for TFTP.",
+""
+);
+var qosSelect=new Array
+(
+"Select",
+""
+);
+var moveUp=new Array
+(
+"Move Up",
+""
+);
+var qosBandwidth=new Array
+(
+"Bandwidth",
+""
+);
+var natSrHop=new Array
+(
+"Hop Count",
+""
+);
+var natSetInfo=new Array
+(
+"Network Address Translation (NAT) allows multiple users at your local site to access the Internet through a single Public IP Address or multiple Public IP Addresses. NAT provides Firewall protection from hacker attacks and has the flexibility to allow you to map Private IP Addresses to Public IP Addresses for key services such as the Web or FTP.",
+""
+);
+var natALGComArrayH323=new Array
+(
+"Support for H323/netmeeting.",
+""
+);
+var name=new Array
+(
+"Name",
+""
+);
+var enNatVrServer=new Array
+(
+"Enable Virtual Server",
+""
+);
+var wanqosaddAlertMac=new Array
+(
+"Invalid MAC address. It should be in hex number (0-9 or a-f).",
+""
+);
+var natAlg=new Array
+(
+"Application Layer Gateway",
+""
+);
+var deleteAll=new Array
+(
+"Delete All",
+""
+);
+var natAlgInfo=new Array
+(
+"Below are applications that need router\'s special support to make them work under the NAT. You can select applications that you are using.",
+""
+);
+var natSrSM=new Array
+(
+"Subnet Mask",
+""
+);
+var natpfwStrPort=new Array
+(
+"port number",
+""
+);
+var ipAddress=new Array
+(
+"IP address ",
+""
+);
+var natsappAlertNoSet=new Array
+(
+"You should set a trigger-port range for adding in an entry.",
+""
+);
+var edit=new Array
+(
+"Edit",
+""
+);
+var natsappAlertInvSet=new Array
+(
+"You should set a incoming-port range for adding in an entry.",
+""
+);
+var natsappAlertInvOrder=new Array
+(
+"Invalid trigger-port range! 1st port value should be less than 2nd value.",
+""
+);
+var face=new Array
+(
+"Interface",
+""
+);
+var natSrGateway=new Array
+(
+"Default Gateway",
+""
+);
+var protocal=new Array
+(
+"Protocol",
+""
+);
+var qosAddInfo=new Array
+(
+"This page allows users to add/modify the QoS rule\'s settings.",
+""
+);
+var wanqosaddEndIpDest=new Array
+(
+"destination end IP address ",
+""
+);
+var moveDown=new Array
+(
+"Move Down",
+""
+);
+var natpfwStrIp=new Array
+(
+"fIP address ",
+""
+);
+var natALGComArrayStarcraft=new Array
+(
+"Support for Starcraft/Battle.net game protocol.",
+""
+);
+var natUPnPInfo=new Array
+(
+"UPnP is more than just a simple extension of the Plug and Play peripheral model. It is designed to support zero-configuration, \"invisible\" networking, and automatic discovery for a breadth of device categories from a wide range of vendors.<br> With UPnP, a device can dynamically join a network, obtain an IP address, convey its capabilities, and learn about the presence and capabilities of other devices-all automatically; truly enabling zero configuration networks. Devices can subsequently communicate with each other directly; thereby further enabling peer to peer networking.",
+""
+);
+var natVrTable=new Array
+(
+"Current Virtual Server Table",
+""
+);
+var disable=new Array
+(
+"Disable",
+""
+);
+var qosLocalIP=new Array
+(
+"Local IP Address ",
+""
+);
+var qosTraffic=new Array
+(
+"Traffic Type",
+""
+);
+var enable=new Array
+(
+"Enable",
+""
+);
+var qosName=new Array
+(
+"Rule Name",
+""
+);
+var qosDnload=new Array
+(
+"Download Bandwidth",
+""
+);
+var enNatTrigPort=new Array
+(
+"Enable",
+""
+);
+var enNatTrigIp=new Array
+(
+"IP Address",
+""
+);
+var wanqosaddWanPort=new Array
+(
+"WAN Port ",
+""
+);
+var qosPrior=new Array
+(
+"Priority",
+""
+);
+var natPort=new Array
+(
+"Port Forwarding",
+""
+);
+var natVrServer=new Array
+(
+"Virtual Server",
+""
+);
+var natALGComArrayIRC=new Array
+(
+"Allows DCC to work though NAT and connection tracking.",
+""
+);
+var wanqosAlertChkNum=new Array
+(
+"You can only select one entry!",
+""
+);
+var qos=new Array
+(
+"QoS",
+""
+);
+var natALGComArrayFTP=new Array
+(
+"Support for FTP.",
+""
+);
+var natSrInfo=new Array
+(
+"You can enable Static Routing to turn off NAT function of this router and let this router forward packets by your routing policy.",
+""
+);
+var feature=new Array
+(
+"Feature",
+""
+);
+var natALGComArrayEgg=new Array
+(
+"Support for eggdrop bot networks.",
+""
+);
+var wanqosaddEndIp=new Array
+(
+"source end IP address ",
+""
+);
+var natTrigTable=new Array
+(
+"Current Trigger-Port Table",
+""
+);
+var natPubType=new Array
+(
+"Public Type",
+""
+);
+
+
+var natPortTable=new Array
+(
+"Current Port Forwarding Table",
+""
+);
+var qosRemotePort=new Array
+(
+"Remote Port Range(ex:2-65535)",
+""
+);
+var wanqosaddAlertPort=new Array
+(
+"Invalid port value. It should be in decimal number (0-9).",
+""
+);
+var natSrIP=new Array
+(
+"Destination LAN IP",
+""
+);
+var natVrInfo=new Array
+(
+"&nbsp;&nbsp;You can configure the Broadband router as a Virtual Server so that remote users accessing services such as the Web or FTP at your local site via Public IP Addresses can be automatically redirected to local servers configured with Private IP Addresses. In other words, depending on the requested service (TCP/UDP) port number, the Broadband router redirects the external service request to the appropriate internal server (located at one of your LAN\'s Pirvate IP Address). ",
+""
+);
+var wanqosaddStartIpDest=new Array
+(
+"destination start IP address ",
+""
+);
+var natALGComArrayTalk=new Array
+(
+"Allows netfilter to track talk connections.",
+""
+);
+var natPortRange=new Array
+(
+"Port Range",
+""
+);
+var wanqosaddStartIp=new Array
+(
+"source start IP address ",
+""
+);
+var qosEnable=new Array
+(
+"Enable QoS",
+""
+);
+var type=new Array
+(
+"Type",
+""
+);
+var qosRemoteIP=new Array
+(
+"Remote IP Address ",
+""
+);
+var natsappAlertInvRange=new Array
+(
+"Invalid trigger-port number! You should set a value between 1-65535.",
+""
+);
+var natTrigPort=new Array
+(
+"Trigger Port",
+""
+);
+var add=new Array
+(
+"Add",
+""
+);
+var wanqosAlertRepWeb=new Array
+(
+"Cannot add new entry because table is full!",
+""
+);
+var gateway=new Array
+(
+"Gateway",
+""
+);
+var enNatPort=new Array
+(
+"Enable Port Forwarding",
+""
+);
+var natPortPri=new Array
+(
+"Private Port",
+""
+);
+var natSrTable=new Array
+(
+"Current Static Routing Table",
+""
+);
+var natALGComArrayMMS=new Array
+(
+"Support for Microsoft Streaming Media Services protocol.",
+""
+);
+var wanqosaddAlertAdd=new Array
+(
+"The entry can\'t empty!",
+""
+);
+var enNatSr=new Array
+(
+"Enable Static Routing",
+""
+);
+var reset=new Array
+(
+"Reset",
+""
+);
+var select=new Array
+(
+"Select",
+""
+);
+var natSet=new Array
+(
+"NAT Settings",
+""
+);
+var natUpnpFeature=new Array
+(
+"UPnP Feature",
+""
+);
+var deleteSelected=new Array
+(
+"Delete Selected",
+""
+);
+var natALGComArrayMSN=new Array
+(
+"Support for MSN file tranfer.",
+""
+);
+var natALGComArrayIPsec=new Array
+(
+"Support for IPsec passthrough",
+""
+);
+var natED=new Array
+(
+"Enable or disable NAT module function :&nbsp;&nbsp;",
+""
+);
+var fastNatED=new Array
+(
+"Enable or disable Fast NAT module function :&nbsp;&nbsp;",
+""
+);
+
+var comment=new Array
+(
+"Comment",
+""
+);
+var natPortPriIP=new Array
+(
+"Private IP",
+""
+);
+var natPopApp=new Array
+(
+"Popular Applications ",
+""
+);
+var qosLocalPort=new Array
+(
+"Local Port Range(ex:2-65535)",
+""
+);
+var natSapp=new Array
+(
+"Special Applications",
+""
+);
+var natsappAlertInvForm=new Array
+(
+"Invalid trigger-port number! It should be the decimal number (0-9).",
+""
+);
+var guaranteeolitec=new Array
+(
+"guarantee",
+""
+);
+var noneolitec=new Array
+(
+"None",
+""
+);
+var botholitec=new Array
+(
+"Both",
+""
+);
+var selectoneolitec=new Array
+(
+"-- select one --",
+""
+);
+var apply1=new Array
+(
+"Apply",
+""
+);
+var cancel1=new Array
+(
+"Cancel",
+""
+);
+var qosdoband=new Array
+(
+"Total Download Bandwidth",
+""
+);
+var qosupband=new Array
+(
+"Total Upload Bandwidth",
+""
+);

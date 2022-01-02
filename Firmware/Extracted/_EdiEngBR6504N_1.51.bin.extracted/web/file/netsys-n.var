@@ -1,0 +1,1195 @@
+var provider=new Array
+(
+"Provider ",
+""
+);
+var IPAddrInfo=new Array
+(
+"3.IP Address Info",
+""
+);
+var settypeContent6=new Array
+(
+"Layer Two Tunneling Protocol is a common connection method used in xDSL connections.",
+""
+);
+var telPass=new Array
+(
+"Telstra Big Pond password",
+""
+);
+var enableFunction=new Array
+(
+"Enable Function",
+""
+);
+var ddnsPass=new Array
+(
+"DDNS password",
+""
+);
+var wanInterSet=new Array
+(
+"WAN Interface Settings",
+""
+);
+var setTimeZone=new Array
+(
+"Set Time Zone ",
+""
+);
+var halfd=new Array
+(
+"Half day",
+""
+);
+var password=new Array
+(
+"Password ",
+""
+);
+var userName=new Array
+(
+"User Name ",
+""
+);
+var enabled=new Array
+(
+"Enabled",
+""
+);
+var wandnsContent=new Array
+(
+"A Domain Name System (DNS) server is like an index of IP Addresses and Web Addresses. If you type a Web address into your browser, such as www.broadbandrouter.com, a DNS server will find that name in its index and find the matching IP address. Most ISPs provide a DNS server for speed and convenience. Since your Service Provider may connect you to the Internet through dynamic IP settings, it is likely that the DNS server IP Address is also provided dynamically. However, if there is a DNS server that you would rather use, you need to specify the IP Address of that DNS server. The primary DNS will be used for domain name access first, in case the primary DNS access failures, the secondary DNS will be used.</br>Has your Internet service provider given you a DNS address?<br>",
+""
+);
+var serviceName=new Array
+(
+"Service Name ",
+""
+);
+var pptpSet=new Array
+(
+"PPTP Settings",
+""
+);
+var TelstraBigPond=new Array
+(
+"Telstra Big Pond (Australia Only)",
+""
+);
+var gateAddr=new Array
+(
+"Service Provider Gateway Address ",
+""
+);
+var wansipContent2=new Array
+(
+"Enter the IP Address, Subnet Mask, Gateway IP Address and DNS IP Address provided to you by your ISP in the appropriate fields.",
+""
+);
+var connectDemand=new Array
+(
+"Connect on Demand",
+""
+);
+var currentPass=new Array
+(
+"Current Password ",
+""
+);
+var accoutEm=new Array
+(
+"Account/E-Mail",
+""
+);
+var wansetPageContent7=new Array
+(
+"Telstra Big Pond is a Internet service is provided in Australia.",
+""
+);
+var timeZone1=new Array
+(
+"Time Zone",
+""
+);
+var timeZone1menu=new Array
+(
+"1.Time Zone",
+""
+);
+var wan=new Array
+(
+"WAN",
+""
+);
+var twods=new Array
+(
+"Two days",
+""
+);
+var oneh=new Array
+(
+"One hour",
+""
+);
+var system=new Array
+(
+"System",
+""
+);
+var advancedSet=new Array
+(
+"Advanced Settings",
+""
+);
+var wanpptpAlert=new Array
+(
+"Invalid PPTP default gateway address!It should be located in the same subnet of current IP address.",
+""
+);
+var lanAlert5=new Array
+(
+"Invalid Domain Name. It should be alphanumeric characters.",
+""
+);
+var StaticIPAddr=new Array
+(
+"IP address assigned by your Service Provider ",
+""
+);
+var lanAlert2=new Array
+(
+"Invalid DHCP client start IP address!It should be located in the same subnet of current IP address.",
+""
+);
+var loginServer=new Array
+(
+"Login Server ",
+""
+);
+var gatewayAddr=new Array
+(
+"gateway address ",
+""
+);
+var jan=new Array
+(
+"January",
+""
+);
+var wansipContent=new Array
+(
+"If your Service Provider has assigned a Fixed IP address; enter the assigned IP Address, Subnet Mask and the Gateway IP Address provided.",
+""
+);
+var lanAlert4=new Array
+(
+"Invalid DHCP client IP address range!Ending address should be greater than starting address.",
+""
+);
+var BEZEQ=new Array
+(
+"BEZEQ-ISRAEL ",
+""
+);
+var telUserName=new Array
+(
+"Telstra Big Pond user name",
+""
+);
+var PPTPDSL=new Array
+(
+"PPTP xDSL",
+""
+);
+var secDnsAddr=new Array
+(
+"Secondary DNS Address (optional) ",
+""
+);
+var hostAddr=new Array
+(
+"Host address ",
+""
+);
+var settypeContent2=new Array
+(
+"A connection through a cable modem requires minimal configuration. When you set up an account with your Cable provider, the Cable provider and your Broadband router will automatically establish a connection, so you probably do not need to enter anything more.",
+""
+);
+var sysrmContent=new Array
+(
+"The remote management function allows you to designate a host in the Internet to have management/configuration access to the Broadband router from a remote site. Enter the designated host IP Address in the Host IP Address field.",
+""
+);
+var toolset=new Array
+(
+"Tools Setting",
+""
+);
+var quickSetup=new Array
+(
+"QuickSetup",
+""
+);
+var vpn=new Array
+(
+"VPN",
+""
+);
+var sta2info=new Array
+(
+"Status and Information",
+""
+);
+var fixedIP=new Array
+(
+"Fixed-IP xDSL",
+""
+);
+var setLanguage=new Array
+(
+"Language Set",
+""
+);
+var passSet=new Array
+(
+"Password Settings",
+""
+);
+var wansetPageContent5=new Array
+(
+"Point-to-Point Tunneling Protocol is a common connection method used in xDSL connections.",
+""
+);
+var optional=new Array
+(
+"Optional",
+""
+);
+var qos=new Array
+(
+"QoS",
+""
+);
+var wanpppoeContent=new Array
+(
+"Enter the User Name and Password required by your ISP in the appropriate fields. If your ISP has provided you with a \"Service Name\" enter it in the Service Name field, otherwise, leave it blank.",
+""
+);
+var july=new Array
+(
+"July",
+""
+);
+var userID=new Array
+(
+"User ID ",
+""
+);
+var pptpGate=new Array
+(
+"PPTP Gateway ",
+""
+);
+var march=new Array
+(
+"March",
+""
+);
+var printServer=new Array
+(
+"Print Server",
+""
+);
+var genSetPageContent=new Array
+(
+"This page includes the basic configuration tools for the Broadband router\'s remote management access function.",
+""
+);
+var portForwarding=new Array
+(
+"Port Forwarding",
+""
+);
+var idleTime=new Array
+(
+"Idle Time Out ",
+""
+);
+var toolsContent=new Array
+(
+"Broadband router Tools - Tools include Configuration tools, Firmware upgrade and Reset.Configuration tools allow you to Backup, Restore, or Restore to Factory Default setting for your Broadband router. The Firmware upgrade tool allows you to upgrade your Broadband router\'s firmware. The RESET tool allows you to reset your Broadband router.",
+""
+);
+var wansetPageContent=new Array
+(
+"The Broadband router can be connected to your Service Provider through the following methods",
+""
+);
+var setupWizardContent=new Array
+(
+"The Quick Setup Wizard provides only the necessary configurations to connect your Broadband router to your Internet Service Provider (ISP) through an external cable or a DSL modem.",
+""
+);
+var may=new Array
+(
+"May",
+""
+);
+var L2TPDSL=new Array
+(
+"L2TP xDSL",
+""
+);
+var TelBP=new Array
+(
+"Telstra Big Pond",
+""
+);
+var setUpMainContent=new Array
+(
+"The Broadband router supports advanced functions like Virtual Server, Access Control, Hacker Attack Detection and DMZ.<br>We highly recommend you keep the default settings.",
+""
+);
+var pppoePass=new Array
+(
+"PPPoE password",
+""
+);
+var obtainIP=new Array
+(
+"Obtain an IP address automatically ",
+""
+);
+var useIPAddr=new Array
+(
+"Use the following IP address ",
+""
+);
+var firewall=new Array
+(
+"Firewall",
+""
+);
+var syspasswdAlert=new Array
+(
+"Password is not matched. Please type the same password between \'new\' and \'confirmed\' box.",
+""
+);
+var halfh=new Array
+(
+"Half hour",
+""
+);
+var lanContent=new Array
+(
+"You can enable the Broadband router\'s DHCP server to dynamically allocate IP Addresses to your LAN client PCs.  The broadband router must have an IP Address for the Local Area Network.",
+""
+);
+var urlBlock=new Array
+(
+"URL Blocking",
+""
+);
+var PPPoE=new Array
+(
+"PPPoE",
+""
+);
+var staticRoute=new Array
+(
+"Static Routing",
+""
+);
+var dhcpStart1=new Array
+(
+"1DHCP client start address ",
+""
+);
+var status=new Array
+(
+"Status",
+""
+);
+var useInISRAEL=new Array
+(
+"Enable (for BEZEQ network in ISRAEL use only)",
+""
+);
+var authenType=new Array
+(
+"Authentication Type ",
+""
+);
+var startIP=new Array
+(
+"Start IP ",
+""
+);
+var wansetPageContent4=new Array
+(
+"PPP over Ethernet is a common connection method used in xDSL connections.",
+""
+);
+var twohs=new Array
+(
+"Two hours",
+""
+);
+var passKey=new Array
+(
+"Password / Key ",
+""
+);
+var twowks=new Array
+(
+"Two weeks",
+""
+);
+var pppoeContent=new Array
+(
+"Enter the PPPoE User Name and Password assigned by your Service Provider. The Service Name is normally optional, but may be required by some Service Providers.  Enter a Idle Time (in minutes) to define a maximum period of time for which the Internet connection is maintained during inactivity.  If the connection is inactive for longer than the Maximum Idle Time, then the connection will be dropped.  You can enable the Connect on Demand option to automatically re-establish the connection as soon as you attempt to access the Internet again.</br>If your Internet Service Provider requires the use of PPPoE, enter the information below.",
+""
+);
+var passSettingContent=new Array
+(
+"You can change the password required to log into the broadband router\'s system web-based managemunt. By default, the password is 1234. So please assign a password to the Administrator as soon as possible, and store it in a safe place. Passwords can contain 0 to 30 alphanumeric characters, and are case sensitive.",
+""
+);
+var hostName=new Array
+(
+"Host Name ",
+""
+);
+var accessControl=new Array
+(
+"Access Control",
+""
+);
+var endIP=new Array
+(
+"End IP ",
+""
+);
+var statusInfos=new Array
+(
+"Status",
+""
+);
+var userLogin=new Array
+(
+"User decide login server manually",
+""
+);
+var defaultGateway=new Array
+(
+"Default Gateway ",
+""
+);
+var august=new Array
+(
+"August",
+""
+);
+var configTool=new Array
+(
+"Configuration Tool",
+""
+);
+var hostPass=new Array
+(
+"HostPass ",
+""
+);
+var DHCPServer=new Array
+(
+"DHCP Server ",
+""
+);
+var feb=new Array
+(
+"February",
+""
+);
+var subnetMask=new Array
+(
+"Subnet Mask ",
+""
+);
+var nat=new Array
+(
+"NAT",
+""
+);
+var manual=new Array
+(
+"Manual",
+""
+);
+var usePPPoE=new Array
+(
+"Use PPPoE Authentication",
+""
+);
+var dnsAddr2=new Array
+(
+"DNS2 address ",
+""
+);
+var dnsAddr=new Array
+(
+"DNS address ",
+""
+);
+var wandipAlert2=new Array
+(
+"Invalid MAC address. It should be in hex number (0-9 or a-f).",
+""
+);
+var tool=new Array
+(
+"Tool",
+""
+);
+var timeServerAddr=new Array
+(
+"Time Server Address ",
+""
+);
+var confirmPass=new Array
+(
+"Confirmed Password ",
+""
+);
+var securitySet=new Array
+(
+"Security Settings",
+""
+);
+var wantelstraPageContent=new Array
+(
+"If your Internet service is provided by Telstra Big Pond in Australia, you will need to enter your information below, This information is provided by Teistra BigPond. ",
+""
+);
+var spanTree=new Array
+(
+"802.1d Spanning Tree ",
+""
+);
+var settypeContent=new Array
+(
+"Specify the WAN connection type required by your Internet Service Provider. Specify a Cable modem, Fixed-IP xDSL, PPPoE xDSL or PPTP xDSL connection.",
+""
+);
+var idleTime2=new Array
+(
+"idle time",
+""
+);
+var DynamicDNS=new Array
+(
+"Dynamic DNS ",
+""
+);
+var tools=new Array
+(
+"Tools",
+""
+);
+var settypeContent5=new Array
+(
+"If you connect to the Internet using an xDSL Modem and your ISP has provided you with a Password, Local IP Address, Remote IP Address and a Connection ID, then your ISP uses PPTP to establish a connection. You must choose this option and enter the required information.",
+""
+);
+var minute=new Array
+(
+"minutes",
+""
+);
+var pppoeUser=new Array
+(
+"PPPoE User",
+""
+);
+var pptpGateAddr=new Array
+(
+"PPTP gateway address ",
+""
+);
+var setupWizard=new Array
+(
+"Quick Setup Wizard",
+""
+);
+var nov=new Array
+(
+"November",
+""
+);
+var domainName=new Array
+(
+"Domain Name ",
+""
+);
+var generalSetupContent=new Array
+(
+"The Broadband router supports advanced functions like Virtual Server, Access Control, Hacker Attack Detection and DMZ. We highly recommend you keep the default settings.",
+""
+);
+var PPTP=new Array
+(
+"PPTP",
+""
+);
+var l2tpSet=new Array
+(
+"L2TP Settings",
+""
+);
+var leaseTime=new Array
+(
+"Lease Time ",
+""
+);
+var dec=new Array
+(
+"December",
+""
+);
+var settypeContent3=new Array
+(
+"Some xDSL Internet Service Providers may assign a Fixed IP Address for your Broadband router. If you have been provided with this information, choose this option and enter the assigned IP Address, Subnet Mask, Gateway IP Address and DNS IP Address for your Broadband router.",
+""
+);
+var RemoteM=new Array
+(
+"Remote Management",
+""
+);
+var to=new Array
+(
+"To",
+""
+);
+var l2tpPass=new Array
+(
+"L2TP password",
+""
+);
+var DoS=new Array
+(
+"DoS",
+""
+);
+var daylightSave=new Array
+(
+"Daylight Savings ",
+""
+);
+var wanddnsContent=new Array
+(
+"DDNS allows users to map the static domain name to a dynamic IP address. You must get a account, password and your static domain name from the DDNS service providers. Our products have DDNS support for www.dyndns.org and www.tzo.com now.",
+""
+);
+var pptpPass=new Array
+(
+"PPTP password",
+""
+);
+var home=new Array
+(
+"Home",
+""
+);
+var oct=new Array
+(
+"October",
+""
+);
+var mtuVal=new Array
+(
+"MTU Value",
+""
+);
+var newPass=new Array
+(
+"New Password ",
+""
+);
+var portNum=new Array
+(
+"Port Number",
+""
+);
+var lanAlert3=new Array
+(
+"Invalid DHCP client end IP address!It should be located in the same subnet of current IP address.",
+""
+);
+var wansetPageContent2=new Array
+(
+"Obtains an IP Address automatically from your Service Provider.",
+""
+);
+var account=new Array
+(
+"Account / E-Mail ",
+""
+);
+var statusInfo=new Array
+(
+"Status Information",
+""
+);
+var fixedIPDSL=new Array
+(
+"Fixed-IP xDSL",
+""
+);
+var specialApp=new Array
+(
+"Special applications",
+""
+);
+var wireless=new Array
+(
+"Wireless",
+""
+);
+var PPPoEDSL=new Array
+(
+"PPPoE xDSL",
+""
+);
+var setup=new Array
+(
+"General Setup",
+""
+);
+var wanddnsAlert=new Array
+(
+"Invalid HostID number! It should be the decimal number (0-9).",
+""
+);
+var ipAddr11=new Array
+(
+"IP address ",
+""
+);
+var lanAlert=new Array
+(
+"Invalid DHCP client start IP address!It should not be the same as LAN IP Address.",
+""
+);
+var hostID=new Array
+(
+"HostID ",
+""
+);
+var timeZonePageContent=new Array
+(
+"Set the time zone of the Broadband router. This information is used for log entries and firewall settings.",
+""
+);
+var timeFrom=new Array
+(
+"Times From",
+""
+);
+var moreConfig=new Array
+(
+"More Configuration",
+""
+);
+var disconnect=new Array
+(
+"Disconnect",
+""
+);
+var upnp=new Array
+(
+"UPnP Setting",
+""
+);
+var cableModem=new Array
+(
+"Cable Modem",
+""
+);
+var wansetPageContent6=new Array
+(
+"Layer Two Tunneling Protocol is a common connection method used in xDSL connections.",
+""
+);
+var lanIP=new Array
+(
+"LAN IP",
+""
+);
+var clone=new Array
+(
+"Clone Mac address ",
+""
+);
+var oned=new Array
+(
+"One day",
+""
+);
+var IPAddr=new Array
+(
+"IP address ",
+""
+);
+var systemset=new Array
+(
+"System Setting",
+""
+);
+var WANSettings=new Array
+(
+"WAN Settings",
+""
+);
+var wandipAlert=new Array
+(
+"Input MAC address is not complete. It should be 12 digits in hex.",
+""
+);
+var wandipContent=new Array
+(
+"The Host Name is optional, but may be required by some Service Providers. The default MAC Address is set to the WAN physical interface on the Broadband router.  If required by your Service Provider, you can use the \'Clone MAC Address\' button to copy the MAC Address of the Network Interface Card installed in your PC and replace the WAN MAC Address with this MAC Address.",
+""
+);
+var lan=new Array
+(
+"LAN",
+""
+);
+var mtu=new Array
+(
+"MTU ",
+""
+);
+var timeZone=new Array
+(
+"Time Zone",
+""
+);
+var pptpUserId=new Array
+(
+"PPTP User ID",
+""
+);
+var broadbandType2menu=new Array
+(
+"2.Broadband Type",
+""
+);
+var broadbandType2=new Array
+(
+"Broadband Type",
+""
+);
+var wansetPageContent3=new Array
+(
+"Uses a Static IP Address. Your Service Provider gives a Static IP Address to access Internet services.",
+""
+);
+var beiJing=new Array
+(
+"(GMT+08:00)Beijing, Chongqing, Hong Kong, Urumqi",
+""
+);
+var statusInfosContent=new Array
+(
+"The Broadband router\'s status information provides the following information about your Broadband router: Hardware/Firmware version, Serial Number, and its current operating status. ",
+""
+);
+var DynamicIP=new Array
+(
+"Dynamic IP",
+""
+);
+var port=new Array
+(
+"Port",
+""
+);
+var DNS=new Array
+(
+"DNS",
+""
+);
+var StaticIP=new Array
+(
+"Static IP",
+""
+);
+var lanAlert6=new Array
+(
+"IP address was modified, you have to re-connect the WebServer with the new address.",
+""
+);
+var IPAddrInf=new Array
+(
+"IP Address Info",
+""
+);
+var IPAddrInfmenu=new Array
+(
+"3.IP Address Info",
+""
+);
+var lanSet=new Array
+(
+"LAN Settings",
+""
+);
+var forever=new Array
+(
+"Forever",
+""
+);
+var alg=new Array
+(
+"ALG Settings",
+""
+);
+var onewk=new Array
+(
+"One week",
+""
+);
+var basicSet=new Array
+(
+"Basic Settings",
+""
+);
+var SysTimeZone=new Array
+(
+"System Time Zone",
+""
+);
+var disabled=new Array
+(
+"Disabled",
+""
+);
+var settypeContent4=new Array
+(
+"If you connect to the Internet using an xDSL Modem and your ISP has provided you with a Password and a Service Name, then your ISP uses PPPoE to establish a connection. You must choose this option and enter the required information.",
+""
+);
+var macAddr=new Array
+(
+"MAC address ",
+""
+);
+var l2tpUserId=new Array
+(
+"L2TP User ID",
+""
+);
+var dhcpEnd1=new Array
+(
+"1DHCP client end address ",
+""
+);
+var DDNS=new Array
+(
+"DDNS",
+""
+);
+var dmz=new Array
+(
+"DMZ",
+""
+);
+var april=new Array
+(
+"April",
+""
+);
+var virtualServer=new Array
+(
+"Virtual Server",
+""
+);
+var dnsAddr1=new Array
+(
+"DNS1 address ",
+""
+);
+var L2TP=new Array
+(
+"L2TP",
+""
+);
+var generalSetup=new Array
+(
+"General Setup",
+""
+);
+var connect=new Array
+(
+"Connect",
+""
+);
+var connectType=new Array
+(
+"Connection Type ",
+""
+);
+var wanpptpAlert2=new Array
+(
+"default gateway value should be empty.",
+""
+);
+var L2TPGateway=new Array
+(
+"L2TP Gateway ",
+""
+);
+var advanceSet=new Array
+(
+"Advance Settings",
+""
+);
+var sep=new Array
+(
+"September",
+""
+);
+var june=new Array
+(
+"June",
+""
+)
+var syspasswdAlert2=new Array
+(
+"Cannot accept space character in password. Please try it again.",
+""
+);
+var wanddnsAlert2=new Array
+(
+"IP address cannot be empty! It should be FQDN name or IP address.",
+""
+);
+var connectionID=new Array
+(
+"Connection ID ",
+""
+);
+var bbrouter=new Array
+(
+"Broadband Router",
+""
+);
+var continuous=new Array
+(
+"Continuous",
+""
+);
+var apply1=new Array
+(
+"Apply",
+""
+);
+var cancel1=new Array
+(
+"Cancel",
+""
+);
+var back1=new Array
+(
+"Back",
+""
+);
+var next1=new Array
+(
+"Next",
+""
+);
+var ok1=new Array
+(
+"OK",
+""
+);
+var staticdhcp1=new Array
+(
+"Static DHCP Leases Table",
+""
+);
+var staticdhcp2=new Array
+(
+"It allows to entry 16 sets address only.",
+""
+);
+var select1=new Array
+(
+"Select",
+""
+);
+var deleteSelected=new Array
+(
+"Delete Selected",
+""
+);
+var deleteAll=new Array
+(
+"Delete All",
+""
+);
+var reset=new Array
+(
+"Reset",
+""
+);
+var enableStaticdhcp=new Array
+(
+"Enable Static DHCP Leases",
+""
+);
+var new1=new Array
+(
+"New",
+""
+);
+var add1=new Array
+(
+"Add",
+""
+);
+var clear1=new Array
+(
+"Clear",
+""
+);
+
+
+
+
+
+var configSet=new Array
+(
+"Configuration Setup",
+""
+);
+var deviceSet=new Array
+(
+"Device Configure",
+""
+);
+var configReset=new Array
+(
+"Rest Configre",
+""
+);
+var wpsmenu=new Array
+(
+"WPS",
+""
+);

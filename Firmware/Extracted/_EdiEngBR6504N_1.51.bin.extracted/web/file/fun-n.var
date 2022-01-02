@@ -1,0 +1,330 @@
+var date=new Array
+(
+"Date",
+""
+);
+var functionAlert6=new Array
+(
+" range in 2nd digit. It should be 0-255.",
+""
+);
+var functionAlert7=new Array
+(
+" range in 3rd digit. It should be 0-255.",
+""
+);
+var alertFunctionRemoteRange=new Array
+(
+"Remote Port Range ",
+""
+);
+var ntpDate=new Array
+(
+"NTP Date/Time updated",
+""
+);
+var functionAlert10=new Array
+(
+"Invalid",
+""
+);
+var alertFunctionQoSWan4=new Array
+(
+"Current QoS of WAN4 Table ",
+""
+);
+var alertFunctionSave=new Array
+(
+"Save",
+""
+);
+var alertFunctionRule=new Array
+(
+"Rule Name ",
+""
+);
+var alertFunctionInvMask4th=new Array
+(
+"Invalid subnet mask in 4th digit. ",
+""
+);
+var alertFunctionWanPort=new Array
+(
+"WAN Port ",
+""
+);
+var alertFunctionMacAddr=new Array
+(
+"MAC Address ",
+""
+);
+var alertFunctionMoveDn=new Array
+(
+"Move Down",
+""
+);
+var alertFunctionLocalIp=new Array
+(
+"Local IP Address ",
+""
+);
+var functionAlert=new Array
+(
+"It should be the number of 0, 128, 192, 224, 240, 248, 252 or 254",
+""
+);
+var functionAlert12=new Array
+(
+"cannot be empty! You should set a value between ",
+""
+);
+var alertFunctionQoS=new Array
+(
+"QoS ",
+""
+);
+var time=new Array
+(
+"Time",
+""
+);
+var alertFunctionQoSWan3=new Array
+(
+"Current QoS of WAN3 Table ",
+""
+);
+var functionAlert17=new Array
+(
+"Input MAC address is not complete. It should be 12 digits in hex.",
+""
+);
+var alertFunctionPriority=new Array
+(
+"Priority ",
+""
+);
+var userTimeOut=new Array
+(
+"User from 192.168.2.100 timed out",
+""
+);
+var functionAlert2=new Array
+(
+"Subnet mask cannot be empty! It should be filled with 4 digit numbers as xxx.xxx.xxx.xxx.",
+""
+);
+var functionAlert11=new Array
+(
+"! It should be located in the same subnet of current IP address.",
+""
+);
+var alertFunctionLocalAddr=new Array
+(
+"Local Address ",
+""
+);
+var alertFunctionProtocol=new Array
+(
+"Protocol ",
+""
+);
+var alertFunctionReset=new Array
+(
+"Reset",
+""
+);
+var functionAlert9=new Array
+(
+"cannot be empty! It should be filled with 4 digit numbers as xxx.xxx.xxx.xxx.",
+""
+);
+var ntpDat=new Array
+(
+"NTP Date/Time updated",
+""
+);
+var alertFunctionEdit=new Array
+(
+"Edit",
+""
+);
+var functionAlert18=new Array
+(
+"Invalid MAC address. It should be in hex number (0-9 or a-f).",
+""
+);
+var functionAlert3=new Array
+(
+"Invalid subnet mask value. It should be the decimal number (0-9).",
+""
+);
+var alertFunctionRemoteIp=new Array
+(
+"Remote IP Address ",
+""
+);
+var alertFunctionMoveUp=new Array
+(
+"Move Up",
+""
+);
+var functionAlert8=new Array
+(
+" range in 4th digit. It should be 1-254.",
+""
+);
+var alertFunctionInvMask2nd=new Array
+(
+"Invalid subnet mask in 2nd digit. ",
+""
+);
+var functionAlert5=new Array
+(
+" range in 1st digit. It should be 0-255.",
+""
+);
+var alertFunctionQoSWan2=new Array
+(
+"Current QoS of WAN2 Table ",
+""
+);
+var alertFunctionBandwidth=new Array
+(
+"Bandwidth ",
+""
+);
+var functionConfirm2=new Array
+(
+"Do you really want to delete the all entries?",
+""
+);
+var functionAlert14=new Array
+(
+"! It should be the decimal number (0-9).",
+""
+);
+var dhcpReceiveOffer=new Array
+(
+"DHCP Client: Receive Offer from 192.168.1.3",
+""
+);
+var alertFunctionLocalRange=new Array
+(
+"Local Port Range ",
+""
+);
+var functionAlert4=new Array
+(
+"value. It should be the decimal number (0-9).",
+""
+);
+var functionAlert15=new Array
+(
+"! You should set a value between ",
+""
+);
+var alertFunctionDnBand=new Array
+(
+"Download Bandwidth ",
+""
+);
+var alertFunctionDelSelect=new Array
+(
+"Delete Selected",
+""
+);
+var alertFunctionAdd=new Array
+(
+"Add",
+""
+);
+var dhcpClientSend=new Array
+(
+"DHCP Client: Send Request,Request IP=192.168.1.25",
+""
+);
+var logMess=new Array
+(
+"Log Message",
+""
+);
+var logSucc=new Array
+(
+"login success",
+""
+);
+var alertFunctionDelAll=new Array
+(
+"Delete All",
+""
+);
+var alertFunctionQoSEnable=new Array
+(
+"Enable QoS ",
+""
+);
+var alertFunctionInvMask1st=new Array
+(
+"Invalid subnet mask in 1st digit. ",
+""
+);
+var alertFunctionInvalid=new Array
+(
+"Invalid ",
+""
+);
+var alertFunctionSelect=new Array
+(
+"Select",
+""
+);
+var functionAlert16=new Array
+(
+"Invalid port range! 1st port value should be less than 2nd value.",
+""
+);
+var alertFunctionTraffic=new Array
+(
+"Traffic Type ",
+""
+);
+var dhcpClientReceive=new Array
+(
+"DHCP Client: Receive Ack from 192.168.1.3,Lease time=300",
+""
+);
+var alertFunctionQoSTable=new Array
+(
+"Current QoS Table ",
+""
+);
+var alertFunctionUpBand=new Array
+(
+"Upload Bandwidth ",
+""
+);
+var functionConfirm=new Array
+(
+"Do you really want to delete the selected entry?",
+""
+);
+var cannotEmpty=new Array
+(
+"cannot be empty!",
+""
+);
+var functionAlert13=new Array
+(
+"Invalid value of",
+""
+);
+var alertFunctionInvMask3rd=new Array
+(
+"Invalid subnet mask in 3rd digit. ",
+""
+);
+var dhcpSendDis=new Array
+(
+"DHCP Client: Send Discover",
+""
+);

@@ -1,0 +1,72 @@
+#!/bin/sh
+
+#resolv.conf This file should not be modified -- make local changes to
+# /etc/ppp/ip-up.local instead
+
+#LOGDEVICE=$6
+#REALDEVICE=$1
+#WAN_IP=$4
+
+#export PATH=/sbin:/usr/sbin:/bin:/usr/bin
+
+#if [ $# -lt 1 ]; then echo "Usage: $1 {dhcpc | static}"; exit 1 ; fi
+
+# DNS Setting
+. /var/flash.inc
+. /web/mode
+DNS_MODE=0
+if [ "$DNS1" != '0.0.0.0' ]; then
+	DNS_MODE=1
+    echo "nameserver $DNS1" > /etc/resolv.conf
+fi
+if [ "$DNS2" != '0.0.0.0' ]; then
+	DNS_MODE=1
+	echo "nameserver $DNS2" > /etc/resolv.conf
+fi
+if [ "$DNS3" != '0.0.0.0' ]; then
+	DNS_MODE=1
+	echo "nameserver $DNS3" > /etc/resolv.conf
+fi
+
+if [ "$1" = "dhcpc" ]; then
+		killall rdisc 2> /dev/null
+		/bin/rdisc -s &
+		/bin/rdisc -f
+		if [ -f "/etc/ppp/resolv1.conf" ] && [ -f "/etc/ppp/resolv.conf" ]; then
+			/bin/cat  /etc/ppp/resolv1.conf /etc/ppp/resolv.conf > /etc/resolv.conf
+		elif [ -f "/etc/ppp/resolv1.conf" ]; then
+			/bin/cat  /etc/ppp/resolv1.conf > /etc/resolv.conf
+		elif [ -f "/etc/ppp/resolv.conf" ]; then
+			/bin/cat  /etc/ppp/resolv.conf > /etc/resolv.conf
+		fi
+
+elif [ "$1" = "static" ]; then
+	if [ $DNS_MODE != 1 ]; then
+		echo "nameserver 168.95.1.1" > /etc/resolv.conf
+	fi
+
+else
+		if [ -f "/etc/ppp/resolv1.conf" ] && [ -f "/etc/ppp/resolv.conf" ]; then
+			/bin/cat  /etc/ppp/resolv1.conf /etc/ppp/resolv.conf > /etc/resolv.conf
+		elif [ -f "/etc/ppp/resolv1.conf" ]; then
+			/bin/cat  /etc/ppp/resolv1.conf > /etc/resolv.conf
+		elif [ -f "/etc/ppp/resolv.conf" ]; then
+			/bin/cat  /etc/ppp/resolv.conf > /etc/resolv.conf
+		fi
+fi
+
+dnrd -k
+/bin/dnrd.sh
+
+#echo "lesetime ---> $lease"
+
+#echo "********** set Time Zone **********"
+/bin/sntp.sh &
+
+echo "********** run firewall.sh **********"
+/bin/firewall.sh
+if [ "$MODE" = "-D_sitecom_" ]; then
+	/bin/checkfw.sh #Wise
+fi
+
+exit 0

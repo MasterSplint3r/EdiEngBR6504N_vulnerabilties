@@ -1,0 +1,69 @@
+<html><head><title></title>
+<link rel="stylesheet" href="set.css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="text/javascript" src="javascript.js"></script>
+<script type="text/javascript" src="file/netsys-n.var"></script>
+<script language="JavaScript" src="file/function.js"></script>
+<script>
+function stepDisplay(stepNum) {
+	if (stepNum == 1) {
+		document.getElementById('disStep2').style.display = "block";
+		document.getElementById('enStep2').style.display = "none";
+		document.getElementById('disStep3').style.display = "block";
+		document.getElementById('enStep3').style.display = "none";
+	}
+	if (stepNum == 2) {
+		document.getElementById('disStep2').style.display = "none";
+		document.getElementById('enStep2').style.display = "block";
+		document.getElementById('disStep3').style.display = "block";
+		document.getElementById('enStep3').style.display = "none";
+	}
+	if (stepNum == 3) {
+		document.getElementById('disStep2').style.display = "none";
+		document.getElementById('enStep2').style.display = "block";
+		document.getElementById('disStep3').style.display = "none";
+		document.getElementById('enStep3').style.display = "block";
+	}
+}
+</script>
+</head>
+<body class="subbg1" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="parent.topFrame.location.replace('file/title.asp');parent.main.location.replace('systimezone.asp');" background="file/back-b2.gif">
+<table width="175" border="0" cellspacing="0" cellpadding="0">
+<tr>
+	<td class="subnav">
+	<table width="180" border="0" cellspacing="0" cellpadding="0" height="100%">
+	<tr>
+		<td valign="top" height="30%"><br>
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td width="20">&nbsp;</td>
+			<td width="163" valign="top" nowrap="nowrap">
+			<img src="file/r_2.gif" width="19" height="14" align="middle">
+			<font size="2" class="fontWi"><script>dw(timeZone1menu)</script></font><br>
+			<span id="disStep2">
+			<img src="file/r.gif" width="19" height="14" align="middle">
+			<font size="2" class="fontWi"><script>dw(broadbandType2menu)</script></font><br>
+			</span>
+			<span id="enStep2" style="display:none">
+			<img src="file/r_2.gif" width="19" height="14" align="middle">
+			<font size="2" class="fontWi"><script>dw(broadbandType2menu)</script></font><br>
+			</span>
+			<span id="disStep3">
+			<img src="file/r.gif" width="19" height="14" align="middle">
+			<font size="2" class="fontWi"><script>dw(IPAddrInfmenu)</script></font>
+			</span>
+			<span id="enStep3" style="display:none">
+			<img src="file/r_2.gif" width="19" height="14" align="middle">
+			<font size="2" class="fontWi"><script>dw(IPAddrInfmenu)</script></font>
+			</span>
+			</td>	
+		</tr>
+		</table>
+		</td>
+	</tr></table>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+	  <p>&nbsp;</p>
+</td></tr></table>
+</body></html>

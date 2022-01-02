@@ -1,0 +1,345 @@
+var channelNum=new Array
+(
+"Channel Number",
+""
+);
+var firmReset=new Array
+(
+"In the event that the system stops responding correctly or stops functioning,you can perform a Reset. Your settings will not be changed. To perform the reset,click on the APPLY button below. You will be asked to confirm your decision.The Reset will be complete when the LED Power light stops blinking.",
+""
+);
+var subnetMask=new Array
+(
+"Subnet Mask ",
+""
+);
+var mode=new Array
+(
+"Mode",
+""
+);
+var clear=new Array
+(
+"Clear",
+""
+);
+var statDeviceDoc=new Array
+(
+" View the current setting status of this device.",
+""
+);
+var firmInfo=new Array
+(
+"The system will automatically reboot the router after you finished the firmware upgrade process. If you don\'t complete the firmware upgrade process in the \"next\" step, you have to reboot the router.",
+""
+);
+var essid=new Array
+(
+"ESSID",
+""
+);
+var primaryDNS=new Array
+(
+"Primary DNS",
+""
+);
+var save=new Array
+(
+"Save",
+""
+);
+var refresh=new Array
+(
+"Refresh",
+""
+);
+var statInternetDoc=new Array
+(
+" View the current internet connection status and related information.",
+""
+);
+var statDHCP=new Array
+(
+"Active DHCP Client",
+""
+);
+var tools=new Array
+(
+"Tools",
+""
+);
+var secondaryDNS=new Array
+(
+"Secondary DNS",
+""
+);
+var verRuntimeCode=new Array
+(
+"Runtime Code Version",
+""
+);
+var statSecurityDoc=new Array
+(
+"View any attempts that have been made to illegally gain access to your network.",
+""
+);
+var cfgtoolsDoc=new Array
+(
+"Use the \"Backup\" tool to save the Broadband router\'s current configurations to a file named \"config.bin\". You can then use the \"Restore\" tool to restore the saved configuration to the Broadband router.  Alternatively, you can use the \"Restore to Factory Default\" tool to force the Broadband router to perform System Reset and restore the original factory settings.",
+""
+);
+var toolsDoc=new Array
+(
+"The Tools Settings section includes the basic configuration tools, such as Save, Restore Configuration Settings, and Upgrade System Firmware.",
+""
+);
+var security=new Array
+(
+"Security",
+""
+);
+var statSecurity=new Array
+(
+"Security Log",
+""
+);
+var cfgWireless=new Array
+(
+"Wireless Configuration",
+""
+);
+var tlconAlert=new Array
+(
+"Do you really want to reset the current settings to default?",
+""
+);
+var statSystem=new Array
+(
+"System Log",
+""
+);
+var sentPackets=new Array
+(
+"Sent Packets",
+""
+);
+var macAddress=new Array
+(
+"MAC Address ",
+""
+);
+var system=new Array
+(
+"System",
+""
+);
+var ipAddress=new Array
+(
+"IP Address ",
+""
+);
+var statDevice=new Array
+(
+"Device Status",
+""
+);
+var cfgLAN=new Array
+(
+"LAN Configuration",
+""
+);
+var cfgtools=new Array
+(
+"Configuration Tools",
+""
+);
+var backup=new Array
+(
+"Backup Settings",
+""
+);
+var disable=new Array
+(
+"Disable",
+""
+);
+var enable=new Array
+(
+"Enable",
+""
+);
+var firmDoc=new Array
+(
+"This tool allows you to upgrade the Broadband router\'s system firmware. <br> Enter the path and name of the upgrade file and then click the APPLY button below. You will be prompted to confirm the upgrade.",
+""
+);
+var statInternet=new Array
+(
+"Internet Connection",
+""
+);
+var statDHCPDoc=new Array
+(
+"This table shows the assigned IP address, MAC address and time expired for each DHCP leased client.<br>",
+""
+);
+var associatedClients=new Array
+(
+"Associated Clients",
+""
+);
+var currentTime=new Array
+(
+"Current Time",
+""
+);
+var ethernetLAN=new Array
+(
+"Ethernet LAN",
+""
+);
+var toolset=new Array
+(
+"Tools Setting",
+""
+);
+var statInfoDoc=new Array
+(
+"You can use the Status page to monitor the connection status for the Broadband router\'s; WAN/LAN interfaces, firmware and hardware version numbers, any illegal attempts to access your network, and information on all DHCP client PCs currently connected to your network.",
+""
+);
+var sta2info=new Array
+(
+"Status and Information",
+""
+);
+var model=new Array
+(
+"Model",
+""
+);
+var restore=new Array
+(
+"Restore Settings",
+""
+);
+var receivedPackets=new Array
+(
+"Received Packets",
+""
+);
+var ethernetWAN=new Array
+(
+"Ethernet WAN",
+""
+);
+var wirelessLAN=new Array
+(
+"Wireless LAN",
+""
+);
+var verHardware=new Array
+(
+"Hardware Version",
+""
+);
+var firewareUpgrade=new Array
+(
+"Firmware Upgrade",
+""
+);
+var verBootCode=new Array
+(
+"Boot Code Version",
+""
+);
+var upTime=new Array
+(
+"Up time",
+""
+);
+var status=new Array
+(
+"Status",
+""
+);
+var attainIpPtc=new Array
+(
+"Attain IP Protocol",
+""
+);
+var reset=new Array
+(
+"Reset",
+""
+);
+var timeExpired=new Array
+(
+"Time Expired",
+""
+);
+var upload=new Array
+(
+"Upload",
+""
+);
+var rstFactory=new Array
+(
+"Restore to Factory Default",
+""
+);
+var statStatisticsDoc=new Array
+(
+" This page shows the packet counters for transmission and reception regarding to networks. <br?/>",
+""
+);
+var tlUsbStore=new Array
+(
+"USB MASS Storage",
+""
+);
+var tlresetAlert=new Array
+(
+"It may take some time to complete this process and restart the system. Please don\'t turn off the Broadband router before the process is complete.",
+""
+);
+var statSystemDoc=new Array
+(
+"View the system operation information. You can see the system start up time, connection process...etc. here.",
+""
+);
+var tlresetConfirm=new Array
+(
+"Do you really want to reset the Broadband router ??",
+""
+);
+var statStatistics=new Array
+(
+"Statistics",
+""
+);
+var defaultGateway=new Array
+(
+"Default Gateway ",
+""
+);
+var DhcpServer=new Array
+(
+"DHCP Server",
+""
+);
+var next1=new Array
+(
+"Next",
+""
+);
+var apply1=new Array
+(
+"Apply",
+""
+);
+var cancel1=new Array
+(
+"Cancel",
+""
+);

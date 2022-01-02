@@ -1,0 +1,925 @@
+var tlpserverContent=new Array
+(
+"The print server provides LPR and IPP printing methods.<br>You can enable/disable the print server function and change the print server name here.<br>Please assign printer queue name for each printer connected to the USB port.",
+""
+);
+var esp=new Array
+(
+"ESP",
+""
+);
+var file=new Array
+(
+"Please enter a file.",
+""
+);
+var mainMode=new Array
+(
+"Main mode",
+""
+);
+var macFilterTable=new Array
+(
+"MAC Address Filtering Table",
+""
+);
+var save=new Array
+(
+"Save...",
+""
+);
+var halfd=new Array
+(
+"Half day",
+""
+);
+var bit128=new Array
+(
+"128-bit WEP",
+""
+);
+var enabled=new Array
+(
+"Enabled",
+""
+);
+var vpnadvancedAlert=new Array
+(
+"Invalid IKE Life Time! You should set a value between 3600-28800 (1h-8h).",
+""
+);
+var natsroutContent=new Array
+(
+"You can enable Static Routing to turn off NAT function of this router and let this router forward packets by your routing policy.",
+""
+);
+var hash=new Array
+(
+"Hash",
+""
+);
+var passwordSetting=new Array
+(
+"Password Settings",
+""
+);
+var vpnadvancedAlert2=new Array
+(
+"Invalid Ipsec Key Life! You should set a value between 60-86400 (1m-24h).",
+""
+);
+var activeProtocol=new Array
+(
+"Active Protocol",
+""
+);
+var security=new Array
+(
+"Security",
+""
+);
+var wan=new Array
+(
+"WAN",
+""
+);
+var twods=new Array
+(
+"Two days",
+""
+);
+var oneh=new Array
+(
+"One hour",
+""
+);
+var authenticaiton=new Array
+(
+"Authenticaiton",
+""
+);
+var system=new Array
+(
+"System",
+""
+);
+var hmacMd5=new Array
+(
+"HMAC MD5",
+""
+);
+var ok=new Array
+(
+"OK",
+""
+);
+var gatewayAddr=new Array
+(
+"gateway address ",
+""
+);
+var usbMass=new Array
+(
+"USB Mass Storage",
+""
+);
+var dhcpEndAddr=new Array
+(
+"DHCP client end address ",
+""
+);
+var des3=new Array
+(
+"3DES",
+""
+);
+var associatedClient=new Array
+(
+"Associated Clients",
+""
+);
+var command=new Array
+(
+"command :",
+""
+);
+var enable=new Array
+(
+"Enable",
+""
+);
+var informatContent=new Array
+(
+"You can use the information to monitor the Access Point\'s MAC address, runtime code and hardware version.",
+""
+);
+var stationAd=new Array
+(
+"Station-Ad Hoc",
+""
+);
+var encryption=new Array
+(
+"Encryption",
+""
+);
+var portName=new Array
+(
+"Port Name ",
+""
+);
+var ethernet=new Array
+(
+"Ethernet",
+""
+);
+var japan=new Array
+(
+"MKK 1-14(Japan)",
+""
+);
+var phase2=new Array
+(
+"Phase 2 (IPSEC SA)",
+""
+);
+var wanType=new Array
+(
+"WAN TYPE",
+""
+);
+var warning=new Array
+(
+"Warning",
+""
+);
+var advancedSetting=new Array
+(
+"Advanced Setting",
+""
+);
+var exchange=new Array
+(
+"Exchange Type",
+""
+);
+var enableControl=new Array
+(
+"Enable Wireless Access Control",
+""
+);
+var managementIP=new Array
+(
+"Management IP",
+""
+);
+var radiusServer=new Array
+(
+"Radius Server",
+""
+);
+var france=new Array
+(
+"FRANCE 10-13(France)",
+""
+);
+var off=new Array
+(
+"OFFOn",
+""
+);
+var wirelessConfig=new Array
+(
+"Wireless Configuration",
+""
+);
+var opmodeContent3=new Array
+(
+"In this mode, all  ethernet ports  are bridged together and the wireless client will connect to ISP access point. The NAT is enabled and PCs in ethernet ports share the same IP to ISP through wireless LAN. You must set the wireless to client mode first and connect to the ISP AP in Site-Survey page.  The connection type can be setup in WAN page by using PPPOE, DHCP client, PPTP client or static IP.",
+""
+);
+var domainNameIP=new Array
+(
+"Domain Name Server IP ",
+""
+);
+var ecapsulation=new Array
+(
+"Encapsulation",
+""
+);
+var printServer=new Array
+(
+"Print Server",
+""
+);
+var debug=new Array
+(
+"Debug",
+""
+);
+var doc=new Array
+(
+"DOC 1-11(Canada)",
+""
+);
+var dh5=new Array
+(
+"DH5(modp1536)",
+""
+);
+var wpaShare=new Array
+(
+"WPA-shared key",
+""
+);
+var nic0=new Array
+(
+"NIC0 address ",
+""
+);
+var enableSta=new Array
+(
+"Enable Static Routing",
+""
+);
+var sysutiliAlert=new Array
+(
+"Invalid Domain Name. It should be in (0~9 or a~z or -).",
+""
+);
+var hdVersion=new Array
+(
+"Hardware Version",
+""
+);
+var sysutiliAlert5=new Array
+(
+"Invalid DHCP client address range!Ending address should be greater than starting address.",
+""
+);
+var nic1=new Array
+(
+"NIC1 address ",
+""
+);
+var macAddrFilter=new Array
+(
+"MAC Address Filtering",
+""
+);
+var halfh=new Array
+(
+"Half hour",
+""
+);
+var dh2=new Array
+(
+"DH2(modp1024)",
+""
+);
+var upTime=new Array
+(
+"Up time",
+""
+);
+var sha1=new Array
+(
+"SHA1",
+""
+);
+var staticRoute=new Array
+(
+"Static Routing",
+""
+);
+var add=new Array
+(
+"Add",
+""
+);
+var wep=new Array
+(
+"WEP",
+""
+);
+var tlupgradeConfirm=new Array
+(
+"Do you wish to continue with the upgrade process?",
+""
+);
+var startIP=new Array
+(
+"Start IP ",
+""
+);
+var sysutiliAlert2=new Array
+(
+"Password is not matched.",
+""
+);
+var upload=new Array
+(
+"Upload",
+""
+);
+var encryptiContent=new Array
+(
+"This page allows your data being transmitted over the wireless network securely. If this function is enabled, please make sure your wireless stations are using the same encryption keys as the Access Point.",
+""
+);
+var ipp=new Array
+(
+"IPP ",
+""
+);
+var twohs=new Array
+(
+"Two hours",
+""
+);
+var tlupgradeContent=new Array
+(
+"This tool allows you to upgrade the Broadband router\'s system firmware. <br>Enter the path and name of the upgrade file and then click the APPLY button below. You will be prompted to confirm the upgrade.",
+""
+);
+var staAndInf=new Array
+(
+"Status and Information",
+""
+);
+var select=new Array
+(
+"Select",
+""
+);
+var accept=new Array
+(
+"Accept",
+""
+);
+var dhcpStartAddr=new Array
+(
+"DHCP client start address ",
+""
+);
+var macfilteConfirm=new Array
+(
+"\'Do you really want to delete the selected entry?\'",
+""
+);
+var tlstorageContent=new Array
+(
+"Please make sure the USB Mass Storage device is insert to USB port correctly",
+""
+);
+var twowks=new Array
+(
+"Two weeks",
+""
+);
+var vpnadvancedAlert3=new Array
+(
+"Remember to press \"Apply Change\" button to save change",
+""
+);
+var macFilter=new Array
+(
+"MAC Filtering",
+""
+);
+var runtimeCode=new Array
+(
+"Runtime Code Version",
+""
+);
+var endIP=new Array
+(
+"End IP ",
+""
+);
+var europe=new Array
+(
+"ETST 1-13(Europe)",
+""
+);
+var configTool=new Array
+(
+"Configuration Tool",
+""
+);
+var delAll=new Array
+(
+"Delete All",
+""
+);
+var licenceContent=new Array
+(
+"If your Internet service fee is charged by the time connected. We strongly suggest that you should power off the Router when you get off line.",
+""
+);
+var reject=new Array
+(
+"Reject",
+""
+);
+var DHCPServer=new Array
+(
+"DHCP Server ",
+""
+);
+var restoreToDef=new Array
+(
+"Restore to Factory Default : ",
+""
+);
+var channelNum=new Array
+(
+"Channel Number",
+""
+);
+var subMask=new Array
+(
+"Subnet Mask ",
+""
+);
+var mode=new Array
+(
+"Mode",
+""
+);
+var phase1=new Array
+(
+"Phase 1 (ISAKMP SA)",
+""
+);
+var systemUtility=new Array
+(
+"System Utility",
+""
+);
+var hmacSha1=new Array
+(
+"HMAC SHA1",
+""
+);
+var clear=new Array
+(
+"Clear",
+""
+);
+var defaultGateIP=new Array
+(
+"Default Gateway IP ",
+""
+);
+var resetContent2=new Array
+(
+"It may take some time to complete this process and restart the system.Please don\'t turn off the Access Point before the process is complete.",
+""
+);
+var on=new Array
+(
+"On",
+""
+);
+var dnsAddr=new Array
+(
+"DNS address ",
+""
+);
+var null1=new Array
+(
+"NULL",
+""
+);
+var spain=new Array
+(
+"SPAIN 10-11(Spain)",
+""
+);
+var printerServerName=new Array
+(
+"PrinterServer Name ",
+""
+);
+var macfilteConfirm2=new Array
+(
+"\'Do you really want to delete the all entries?\'",
+""
+);
+var macfilteContent=new Array
+(
+"For security reason, the Access Point features MAC Address Filtering that only allows authorized MAC Addresses associating to the Access Point.",
+""
+);
+var apBridgePM=new Array
+(
+"AP Bridge-Point to Multi-Point",
+""
+);
+var lanConfig=new Array
+(
+"LAN Configuration",
+""
+);
+var sysutiliAlert6=new Array
+(
+"IP address was modified, you have to re-connect the WebServer with the new address.",
+""
+);
+var apBridgeWds=new Array
+(
+"AP Bridge-WDS",
+""
+);
+var defualtGat=new Array
+(
+"Default Gateway",
+""
+);
+var wpaRadius=new Array
+(
+"WPA-RADIUS",
+""
+);
+var backSet=new Array
+(
+"Backup Settings : ",
+""
+);
+var domainName=new Array
+(
+"Domain Name ",
+""
+);
+var ap=new Array
+(
+"AP",
+""
+);
+var number=new Array
+(
+"Number",
+""
+);
+var leaseTime=new Array
+(
+"Lease Time ",
+""
+);
+var wepMode=new Array
+(
+"WEP Mode ",
+""
+);
+var bit64=new Array
+(
+"64-bit WEP",
+""
+);
+var keyLifeTime=new Array
+(
+"Key Life Time (secs)",
+""
+);
+var contoolContent=new Array
+(
+"Use the \"Backup\" tool to save the Access Point\'s current configurations to a file named \"config.bin\". You can then use the \"Restore\" tool to restore the saved configuration to the Access Point.  Alternatively, you can use the \"Restore to Factory Default\" tool to force the Access Point to perform System Reset and restore the original factory settings.",
+""
+);
+var home=new Array
+(
+"Home",
+""
+);
+var disable=new Array
+(
+"Disable",
+""
+);
+var currentPassword=new Array
+(
+"Current Password ",
+""
+);
+var pfs=new Array
+(
+"PFS",
+""
+);
+var resetConfirm=new Array
+(
+"Do you really want to reset the Access Point ??",
+""
+);
+var hopCount=new Array
+(
+"Hop Count",
+""
+);
+var interface1=new Array
+(
+"Interface",
+""
+);
+var fcc=new Array
+(
+"FCC 1-11(U.S.)",
+""
+);
+var printServerFeature=new Array
+(
+"PrintServer Feature ",
+""
+);
+var newPassword=new Array
+(
+"New Password ",
+""
+);
+var destinateIP=new Array
+(
+"Destination LAN IP",
+""
+);
+var resetContent=new Array
+(
+"In the event that the system stops responding correctly or stops functioning,you can perform a Reset. Your settings will not be changed. To perform the reset,click on the APPLY button below. You will be asked to confirm your decision.The Reset will be complete when the LED Power light stops blinking.",
+""
+);
+var firmwareUp=new Array
+(
+"Firmware Upgrade",
+""
+);
+var advancedVPN=new Array
+(
+"Advanced VPN Setting",
+""
+);
+var state=new Array
+(
+"State",
+""
+);
+var stationInfra=new Array
+(
+"Station-Infrastructure",
+""
+);
+var wirelessISP=new Array
+(
+" Wireless ISP",
+""
+);
+var apBridgePP=new Array
+(
+"AP Bridge-Point to Point",
+""
+);
+var oned=new Array
+(
+"One day",
+""
+);
+var IPAddr=new Array
+(
+"IP address ",
+""
+);
+var debugContent=new Array
+(
+"The page function is used by writer debuging. Please type command. Apply successfully when the command is matched.",
+""
+);
+var upgrade=new Array
+(
+"Upgrade",
+""
+);
+var basicSetting=new Array
+(
+"Basic Setting",
+""
+);
+var lan=new Array
+(
+"LAN",
+""
+);
+var contoolConfirm=new Array
+(
+"Do you really want to reset the current settings to default?",
+""
+);
+var reenterPassword=new Array
+(
+"Re-Enter Password ",
+""
+);
+var currentSta=new Array
+(
+"Current Static Routing Table",
+""
+);
+var delSelected=new Array
+(
+"Delete Selected",
+""
+);
+var opmodeContent2=new Array
+(
+"In this mode, the device is supposed to connect to internet via ADSL/Cable Modem. The NAT is enabled and PCs in  LAN ports share the same IP to ISP through WAN port. The connection type can be setup in WAN page by using PPPOE, DHCP client, PPTP client or static IP.",
+""
+);
+var lpr=new Array
+(
+"LPR ",
+""
+);
+var tunnelMode=new Array
+(
+"Tunnel mode",
+""
+);
+var macfilteContent2=new Array
+(
+"It allows to entry 20 sets address only.",
+""
+);
+var dh1=new Array
+(
+"DH1(modp768)",
+""
+);
+var forever=new Array
+(
+"Forever",
+""
+);
+var sysutiliAlert4=new Array
+(
+"Invalid DHCP client start IP address!It should not be the same as LAN IP Address.",
+""
+);
+var hwsetContent=new Array
+(
+"The page can set hardware configuration.These settings are only for more technically advanced users. These settings should not be changed under general condition.",
+""
+);
+var cancel=new Array
+(
+"Cancel",
+""
+);
+var onewk=new Array
+(
+"One week",
+""
+);
+var md5=new Array
+(
+"MD5",
+""
+);
+var regDomain=new Array
+(
+"regulation domain ",
+""
+);
+var opmodeContent=new Array
+(
+"You can setup different modes to LAN and WLAN interface for NAT and bridging function.",
+""
+);
+var disabled=new Array
+(
+"Disabled",
+""
+);
+var tlupgradeAlert=new Array
+(
+"At the end of the upgrade, the Broadband router may not respond to commands for as long as one minute. This is normal behavior and do not turn off Broadband router during the time.",
+""
+);
+var macAddr=new Array
+(
+"MAC address ",
+""
+);
+var new1=new Array
+(
+"New",
+""
+);
+var licenceContent2=new Array
+(
+"We are not responsible for the additional charge if you don\'t power off the Router when not browsing on line.",
+""
+);
+var defaultAddr=new Array
+(
+"Default Gateway address ",
+""
+);
+var reset=new Array
+(
+"Reset",
+""
+);
+var sysutiliContent=new Array
+(
+"Enter the IP Address of the Access Point. If you want to use DHCP server service, you should enter a unique IP for the Access Point.",
+""
+);
+var sysutiliAlert3=new Array
+(
+"Cannot accept space character in password. Please try it again.",
+""
+);
+var aes128=new Array
+(
+"AES128",
+""
+);
+var diffieHellman=new Array
+(
+"Diffie Hellman",
+""
+);
+var restoreSet=new Array
+(
+"Restore Settings : ",
+""
+);
+var univerRep=new Array
+(
+"Universal Repeater",
+""
+);
+var comment=new Array
+(
+"Comment",
+""
+);
+var hardwareSet=new Array
+(
+"Hardware settings",
+""
+);
+var wlanAddr=new Array
+(
+"WLAN address ",
+""
+);
+var apply1=new Array
+(
+"Apply",
+""
+);
+var cancel1=new Array
+(
+"Cancel",
+""
+);

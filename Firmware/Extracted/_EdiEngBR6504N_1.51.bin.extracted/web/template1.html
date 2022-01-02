@@ -1,0 +1,71 @@
+<html><head><title>Untitled Document</title>
+<link rel="stylesheet" href="set.css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<base target="_self">
+</head>
+
+<!--  Call the multiple languages text and the JavaScript document.  -->
+    <script type="text/javascript" src="javascript.js"></script>
+    <script type="text/javascript" src="file/netsys-n.var"></script>
+
+<script>
+function goWiz() {
+	document.systemMode.submit();
+}
+
+function goSet()  {
+	theName = "Val";
+	theValue = 0;
+	theDay = 1;
+	setDay = new Date();
+	setDay.setTime(setDay.getTime()+(theDay*1000*60*60*24));
+	expDay = setDay.toGMTString();
+	document.cookie = theName + "="+escape(theValue)+";expires="+expDay;
+	parent.lFrame.location.replace("genmenu.asp");
+	parent.main.location.replace("setup_main.asp");
+}
+
+function goSta()  {
+	parent.lFrame.location.replace("stamenu.asp");
+	parent.main.location.replace("stainfo.asp");
+}
+
+function goTool()  {
+	parent.lFrame.location.replace("tlmenu.asp");
+	parent.main.location.replace("tlmain.asp");
+}
+</script>
+<body background="file/back-a.gif">
+<form action=/goform/formWizSetup method=POST name="systemMode">
+
+
+<input type="hidden" value="/setmenu.html" name="setPage">
+<input type="hidden" value="1" name="wizEnabled">
+				
+<div align="center">
+	<table width="433" height="442">
+		<tbody>
+			<tr>
+				<td><a href="javascript:goWiz();"><font class="titlecolor"><script>dw(setupWizard)</script>
+				</font></a><br><font class="textcolor" size="2"><script>dw(setupWizardContent)</script>
+				</font></td>
+			</tr>
+			<tr>
+				<td><a href="javascript:goSet();"><font class="titlecolor"><script>dw(generalSetup)</script>
+				</font></a><br><font class="textcolor" size="2"><script>dw(generalSetupContent)</script>
+				</font></td>
+			</tr>
+			<tr>
+				<td><a href="javascript:goSta();"><font class="titlecolor"><script>dw(statusInfo)</script>
+				</font></a><br><font class="textcolor" size="2"><script>dw(statusInfosContent)</script>
+				</font></td>
+			</tr>
+			<tr>
+				<td><a href="javascript:goTool();"><font class="titlecolor"><script>dw(tools)</script>
+				</font></a><br><font class="textcolor" size="2"><script>dw(toolsContent)</script>
+				</font></td>
+			</tr>
+		</tbody>
+	</table></div>
+</form>
+</body></html>
